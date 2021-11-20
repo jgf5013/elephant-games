@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "flags": "apps/flags",
+    "flags-e2e": "apps/flags-e2e"
+  }
+}
