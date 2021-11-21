@@ -15,11 +15,17 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-// @ts-ignore
-import openURLInBrowser from 'react-native/Libraries/Core/Devtools/openURLInBrowser';
-import Star from './star.svg';
+
+import { Flag, flags } from '@elephant-games/countries';
+import { toTitleCase, getRandomElements } from '@elephant-games/utils';
+import { Button, Alert } from 'react-native';
+ 
+
+const numberOfSelectionsPerQuestion = 4;
 
 const App = () => {
+  const countries = getRandomElements<string>(flags, numberOfSelectionsPerQuestion);
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -29,59 +35,25 @@ const App = () => {
           style={styles.scrollView}
         >
           <View style={styles.header}>
-            <Image style={styles.logo} source={require('./logo.png')} />
-            <Text style={styles.heading} testID="heading">
-              Welcome to Flags
-            </Text>
+            <Flag country={countries[0]}/>
           </View>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>apps/flags/App.tsx</Text> to
-                change this screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions /> Alternatively, press{' '}
-                <Text style={styles.highlight}>R</Text> in the bundler terminal
-                window.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <TouchableOpacity
-                accessibilityRole="button"
-                onPress={() => openURLInBrowser('https://nx.dev')}
-                testID="nx-link"
-              >
-                <Text style={styles.sectionDescription}>
-                  Visit <Text style={styles.link}>nx.dev</Text> for more info
-                  about Nx.
-                </Text>
-              </TouchableOpacity>
-
-              <Text style={styles.sectionDescription}>
-                Thank you for using and showing some ♥ for Nx. If you like Nx,
-                please give it a star:
-              </Text>
-
-              <View style={styles.githubStarContainer}>
-                <TouchableOpacity
-                  style={styles.githubStarBadge}
-                  onPress={() => openURLInBrowser('https://github.com/nrwl/nx')}
-                >
-                  <Star width={24} height={24} fill={Colors.dark} />
-                  <Text> Star</Text>
-                </TouchableOpacity>
+              <View style={styles.answersContainer}>
+              {
+                countries.map((country) => {
+                  return (
+                    <View
+                      style={styles.answer}>
+                      <Button
+                        key={`flag-${country}`}
+                        title={toTitleCase(country)}
+                        onPress={() => Alert.alert(country)}
+                      />
+                    </View>
+                  );
+                })
+              }
               </View>
             </View>
           </View>
@@ -96,21 +68,11 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.lighter,
   },
   header: {
-    backgroundColor: '#143055',
+    backgroundColor: 'floralwhite',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 24,
-  },
-  logo: {
-    width: 200,
-    height: 180,
-    resizeMode: 'contain',
-  },
-  heading: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.lighter,
   },
   body: {
     backgroundColor: Colors.white,
@@ -119,47 +81,15 @@ const styles = StyleSheet.create({
     marginTop: 32,
     paddingHorizontal: 24,
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
-  link: {
-    color: '#45bc98',
-  },
-  githubStarContainer: {
+  answersContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between'
+  },
+  answer: {
     padding: 10,
-  },
-  githubStarBadge: {
-    borderWidth: 1,
-    borderColor: Colors.dark,
-    borderRadius: 3,
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: 10,
-    paddingVertical: 3,
-    fontWeight: '600',
+    flexGrow: 1
   },
 });
 
