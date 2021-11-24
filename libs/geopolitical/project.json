@@ -1,6 +1,6 @@
 {
-  "root": "libs/countries",
-  "sourceRoot": "libs/countries/src",
+  "root": "libs/geopolitical",
+  "sourceRoot": "libs/geopolitical/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -8,14 +8,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/countries/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/geopolitical/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/countries"],
+      "outputs": ["coverage/libs/geopolitical"],
       "options": {
-        "jestConfig": "libs/countries/jest.config.js",
+        "jestConfig": "libs/geopolitical/jest.config.js",
         "passWithNoTests": true
       }
     }

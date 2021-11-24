@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,10 +16,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import { Flag, flags } from '@elephant-games/countries';
+import { Flag, flags } from '@elephant-games/geopolitical';
 import { toTitleCase, getRandomElements } from '@elephant-games/utils';
 import { Button, Alert } from 'react-native';
- 
+
+
+import { AppContextProvider, Prompt } from '@elephant-games/game';
 
 const numberOfSelectionsPerQuestion = 4;
 
@@ -27,39 +29,40 @@ const App = () => {
   const countries = getRandomElements<string>(flags, numberOfSelectionsPerQuestion);
 
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}
-        >
-          <View style={styles.header}>
-            <Flag country={countries[0]}/>
-          </View>
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <View style={styles.answersContainer}>
-              {
-                countries.map((country) => {
-                  return (
-                    <View
-                      style={styles.answer}>
-                      <Button
+      <AppContextProvider appConfig={{game: "flags"}}>
+        <StatusBar barStyle="dark-content" />
+        <SafeAreaView>
+          <ScrollView
+            contentInsetAdjustmentBehavior="automatic"
+            style={styles.scrollView}
+          >
+            {/* <View style={styles.header}>
+              <Flag country={countries[0]}/>
+            </View> */}
+            <Prompt />
+            <View style={styles.body}>
+              <View style={styles.sectionContainer}>
+                <View style={styles.answersContainer}>
+                {
+                  countries.map((country) => {
+                    return (
+                      <View
                         key={`flag-${country}`}
-                        title={toTitleCase(country)}
-                        onPress={() => Alert.alert(country)}
-                      />
-                    </View>
-                  );
-                })
-              }
+                        style={styles.answer}>
+                        <Button
+                          title={toTitleCase(country)}
+                          onPress={() => Alert.alert(country)}
+                        />
+                      </View>
+                    );
+                  })
+                }
+                </View>
               </View>
             </View>
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
+          </ScrollView>
+        </SafeAreaView>
+      </AppContextProvider>
   );
 };
 

@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "countries": "libs/countries",
+    "geopolitical": "libs/geopolitical",
     "flags": "apps/flags",
     "flags-e2e": "apps/flags-e2e",
     "utils": "libs/utils"

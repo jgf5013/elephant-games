@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "jsx": "react-jsx",
     "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
@@ -14,8 +15,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "resolveJsonModule": true,
     "paths": {
-      "@elephant-games/countries": ["libs/countries/src/index.ts"],
+      "@elephant-games/auth": ["libs/auth/src/index.ts"],
+      "@elephant-games/chemistry": ["libs/chemistry/src/index.ts"],
+      "@elephant-games/geopolitical": ["libs/geopolitical/src/index.ts"],
+      "@elephant-games/game": ["libs/game/src/index.ts"],
       "@elephant-games/utils": ["libs/utils/src/index.ts"]
     }
   },

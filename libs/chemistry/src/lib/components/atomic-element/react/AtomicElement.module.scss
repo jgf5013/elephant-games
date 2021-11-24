@@ -1,0 +1,27 @@
+.grid-item {
+
+    position: relative;
+    width: 100%;
+
+    // @include xs {
+    //     font-size: xx-small;
+    // }
+    // @include sm {
+    //     font-size: x-small;
+    // }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed 1px;
+    border-radius: 3px;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.incorrect {
+    background-color: rgba($color: darkred, $alpha: 0.75);
+}
+
+.table-element {
+    margin: 2px;
+}
