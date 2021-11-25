@@ -8,9 +8,9 @@ import { Flag } from '@elephant-games/geopolitical';
 export const Prompt = () => {
     const context = useContext(AppContext);
     const { state } = context;
-    const { appConfig, quiz } = state;
+    const { gameConfig, quiz } = state;
 
-    const prompt = getGamePrompt({game: appConfig.game, quiz});
+    const prompt = getGamePrompt({game: gameConfig.game, quiz});
 
     return (
         <View>

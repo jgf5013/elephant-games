@@ -9,7 +9,7 @@ export const appReducer: Reducer<AppState<unknown>, AppAction> = (state, action)
         case AppActionType.QuizPoolLoaded:
             return handleQuestionsLoaded(state, action);
         case AppActionType.AnswerQuestion:
-            return isAnswerCorrect(state.appConfig.game, state.quiz, action.payload) ?
+            return isAnswerCorrect(state.gameConfig.game, state.quiz, action.payload) ?
                 { ...state, quiz: getNextQuestion(state.quiz) } :
                 { ...state, quiz: markIncorrect(state.quiz, action.payload) };
         default:
@@ -35,15 +35,7 @@ const handleQuestionsLoaded = (state, action) => {
 }
 
 const isAnswerCorrect = (game: Game, prompt: QuizState<unknown>, responseGiven: number) => {
-    switch (game) {
-        case "flags":
-            return true;
-        case "periodic-table":
-            return isGameAnswerCorrect<Element>(game, prompt as QuizState<Element>, responseGiven);
-        default:
-            console.error("isAnswerCorrect - invalid game type!!");
-            throw new Error("INVALID_ARG");
-    }
+    return isGameAnswerCorrect<Element>(game, prompt as QuizState<Element>, responseGiven);
 };
 
 const getNextQuestion = (prompt: QuizState<unknown>): QuizState<unknown> => {

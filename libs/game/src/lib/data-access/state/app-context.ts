@@ -2,12 +2,13 @@ import { ReactNode } from 'react';
 
 type Game = "flags" | "periodic-table";
 
-interface AppConfig {
-    game: Game
+interface GameConfig {
+    game: Game;
+    multipleChoiceResponses: number;
 };
 
 interface AppContextProviderOptions {
-    appConfig: AppConfig,
+    gameConfig: GameConfig,
     children: ReactNode
 };
 
@@ -20,7 +21,7 @@ interface QuizState<E> {
 }
 
 interface AppState<E> {
-    appConfig?: AppConfig,
+    gameConfig?: GameConfig,
     quiz: QuizState<E>,
     questions?: E[]
 }
@@ -46,5 +47,5 @@ const initialStateApp: AppState<unknown> = {
     quiz: initialStateQuizItem
 };
 
-export type { Game, AppConfig, AppContextProviderOptions, QuizState, AppState, AppAction };
+export type { Game, GameConfig, AppContextProviderOptions, QuizState, AppState, AppAction };
 export { AppActionType, initialStateQuizItem, initialStateApp };

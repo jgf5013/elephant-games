@@ -1,27 +1,14 @@
-import React, { useContext } from 'react';
+import { AppContextProvider, MultipleChoice, Prompt } from '@elephant-games/game';
+import { flags } from '@elephant-games/geopolitical';
+import { getRandomElements } from '@elephant-games/utils';
+import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  Image,
-  View,
-  Text,
-  StatusBar,
-  TouchableOpacity,
+  SafeAreaView, ScrollView, StatusBar, StyleSheet, View
 } from 'react-native';
-
 import {
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
+  Colors
 } from 'react-native/Libraries/NewAppScreen';
 
-import { Flag, flags } from '@elephant-games/geopolitical';
-import { toTitleCase, getRandomElements } from '@elephant-games/utils';
-import { Button, Alert } from 'react-native';
-
-
-import { AppContextProvider, Prompt } from '@elephant-games/game';
 
 const numberOfSelectionsPerQuestion = 4;
 
@@ -29,34 +16,20 @@ const App = () => {
   const countries = getRandomElements<string>(flags, numberOfSelectionsPerQuestion);
 
   return (
-      <AppContextProvider appConfig={{game: "flags"}}>
+      <AppContextProvider gameConfig={{game: "flags", multipleChoiceResponses: 4}}>
         <StatusBar barStyle="dark-content" />
         <SafeAreaView>
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}
           >
-            {/* <View style={styles.header}>
-              <Flag country={countries[0]}/>
-            </View> */}
-            <Prompt />
+            <View style={styles.header}>  
+              <Prompt />
+            </View>
             <View style={styles.body}>
               <View style={styles.sectionContainer}>
-                <View style={styles.answersContainer}>
-                {
-                  countries.map((country) => {
-                    return (
-                      <View
-                        key={`flag-${country}`}
-                        style={styles.answer}>
-                        <Button
-                          title={toTitleCase(country)}
-                          onPress={() => Alert.alert(country)}
-                        />
-                      </View>
-                    );
-                  })
-                }
+              <View style={styles.answersContainer}>
+                <MultipleChoice />
                 </View>
               </View>
             </View>
