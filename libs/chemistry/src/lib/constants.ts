@@ -1,2 +1,4 @@
-export const TABLE_ROWS = 10;
-export const TABLE_COLUMNS = 18;
+const TABLE_ROWS = 10;
+const TABLE_COLUMNS = 18;
+
+export { TABLE_COLUMNS, TABLE_ROWS };

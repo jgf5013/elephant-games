@@ -6,14 +6,30 @@ import { isAnswerCorrect as isGameAnswerCorrect } from '../services/game.service
 
 export const appReducer: Reducer<AppState<unknown>, AppAction> = (state, action) => {
     switch (action.type) {
+        case AppActionType.Play:
+          return {
+            ...state,
+            gameState: {
+              ...state.gameState,
+              screen: "quiz",
+            }
+          };
+        case AppActionType.Configure:
+            return {
+                ...state,
+                gameState: {
+                    ...state.gameState,
+                    ...action.payload
+                }
+            };
         case AppActionType.QuizPoolLoaded:
-            return handleQuestionsLoaded(state, action);
+          return handleQuestionsLoaded(state, action);
         case AppActionType.AnswerQuestion:
-            return isAnswerCorrect(state.gameConfig.game, state.quiz, action.payload) ?
-                { ...state, quiz: getNextQuestion(state.quiz) } :
-                { ...state, quiz: markIncorrect(state.quiz, action.payload) };
+          return isAnswerCorrect(state.gameState.game, state.quiz, action.payload) ?
+            { ...state, quiz: getNextQuestion(state.quiz) } :
+            { ...state, quiz: markIncorrect(state.quiz, action.payload) };
         default:
-            throw new Error(`Unrecognized action. action.type=${action.type}`);
+          throw new Error(`Unrecognized action. action.type=${action.type}`);
     }
 };
 

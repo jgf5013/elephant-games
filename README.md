@@ -3,8 +3,8 @@
 # ElephantGames
 
 ## TL;DR
-1. nx run-{device} {app}
-2. nx start {app}
+* nx run-{device} {app}
+* nx start {app} (if metro is already running)
 
 
 ## Adding capabilities to your workspace

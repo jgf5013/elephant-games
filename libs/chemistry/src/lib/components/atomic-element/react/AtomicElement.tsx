@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import './AtomicElement.module.scss';
 
 
-export const AtomicElement = ({ atomicElement }) => {
+const AtomicElement = ({ atomicElement }) => {
     const { state, dispatch } = useContext(AppContext);
     const { quiz } = state;
     
@@ -24,3 +24,5 @@ export const AtomicElement = ({ atomicElement }) => {
         </div>
     );
 };
+
+export { AtomicElement };

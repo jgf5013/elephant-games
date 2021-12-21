@@ -18,14 +18,16 @@ export function useCustomContext() {
   return useContext(AppContext);
 }
 
-export const AppContextProvider = ({ gameConfig, children }: AppContextProviderOptions) => {
+export const AppContextProvider = ({ gameState, children }: AppContextProviderOptions) => {
     const [state, dispatch] = useReducer<React.Reducer<AppState<unknown>, AppAction>>(appReducer, {
-        gameConfig,
-        ...initialStateApp
+        ...initialStateApp,
+        gameState: {
+            ...gameState
+        }
     });
     useEffect(() => {
         if (!state.questions?.length) {
-            fetchQuizQuestionPool(gameConfig.game)
+            fetchQuizQuestionPool(gameState.game)
                 .then((quizPool: any[]) => {
                     dispatch({type: AppActionType.QuizPoolLoaded, payload: quizPool});
             });

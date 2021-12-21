@@ -7,7 +7,13 @@
     "@testing-library/react-native": "*",
     "react": "*",
     "react-native": "*",
-    "react-native-svg": "*",
-    "react-native-ico-flags": "*"
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-screens": "*",
+    "react-native-safe-area-context": "*",
+    "@eva-design/eva": "*",
+    "react-native-ico-flags": "*",
+    "react-native-svg": "*"
   }
 }

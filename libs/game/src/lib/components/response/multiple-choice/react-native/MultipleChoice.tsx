@@ -1,9 +1,8 @@
+import { getRandomElements, toTitleCase } from '@elephant-games/utils';
 import React, { useContext } from 'react';
-import { Alert, Button, View, StyleSheet } from "react-native";
-import { AppActionType, Game, QuizState } from "../../../../data-access/state/app-context";
+import { Button, StyleSheet, View } from "react-native";
+import { AppActionType } from "../../../../data-access/state/app-context";
 import { AppContext } from '../../../../data-access/state/react/app-context';
-import { toTitleCase } from '@elephant-games/utils';
-import { isAnswerCorrect as isGameAnswerCorrect } from "@elephant-games/game";
 
 const styles = StyleSheet.create({
     answer: {
@@ -12,19 +11,19 @@ const styles = StyleSheet.create({
     },
 });
 
-export const MultipleChoice = () => {
+const MultipleChoice = () => {
     const context = useContext(AppContext);
     const { state , dispatch} = context;
-    const { gameConfig, quiz } = state;
+    const { gameState, quiz } = state;
 
-    const multipleChoiceOptions = [
-        ...(quiz.remainingQuestions ?? []).slice(0, gameConfig.multipleChoiceResponses - 1),
+    const multipleChoiceOptions = getRandomElements([
+        ...getRandomElements(quiz.remainingQuestions, gameState.multipleChoiceResponses - 1),
         quiz.quizItem
-    ];
+    ], gameState.multipleChoiceResponses);
 
     const handleResponse = (answer: unknown) => {
         dispatch({ type: AppActionType.AnswerQuestion, payload: answer });
-    }
+    };
 
     return (
         <>{
@@ -46,3 +45,4 @@ export const MultipleChoice = () => {
     );
 };
 
+export { MultipleChoice };

@@ -1,7 +1,7 @@
 import { Game, QuizState } from "../state/app-context";
 
 import { Element, fetchElements } from "@elephant-games/chemistry";
-import { flags } from '@elephant-games/geopolitical';
+import { fetchFlags } from '@elephant-games/geopolitical';
 
 import { isAnswerCorrect as isPeriodicTableAnswerCorrect } from '@elephant-games/chemistry';
 import { isAnswerCorrect as isFlagAnswerCorrect } from '@elephant-games/geopolitical';
@@ -9,7 +9,7 @@ import { isAnswerCorrect as isFlagAnswerCorrect } from '@elephant-games/geopolit
 const fetchQuizQuestionPool = (game: Game) => {
     switch (game) {
         case "flags":
-            return Promise.resolve([...flags]);
+            return fetchFlags();
         case "periodic-table":
             return fetchElements();
     }

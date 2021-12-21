@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { View } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 import { AppState, Game, QuizState } from "../../../../data-access/state/app-context";
 import { AppContext } from '../../../../data-access/state/react/app-context';
 
@@ -8,12 +8,12 @@ import { Flag } from '@elephant-games/geopolitical';
 export const Prompt = () => {
     const context = useContext(AppContext);
     const { state } = context;
-    const { gameConfig, quiz } = state;
+    const { gameState, quiz } = state;
 
-    const prompt = getGamePrompt({game: gameConfig.game, quiz});
+    const prompt = getGamePrompt({game: gameState.game, quiz});
 
     return (
-        <View>
+        <View>  
             {prompt}
         </View>
     );
@@ -29,8 +29,8 @@ const getGamePrompt = (options: GetGamePromptOptions<unknown>) => {
         case "flags":
             return options.quiz.quizItem ? <Flag country={options.quiz.quizItem as string} /> : null;
         case "periodic-table":
-            return <View>{options.quiz.quizItem ? options.quiz.quizItem[options.quiz.promptCategory] : null}</View>
+            return <Text>{options.quiz.quizItem ? options.quiz.quizItem[options.quiz.promptCategory] : null}</Text>
         default:
-            return <View>Error...</View>;
+            return <Text>Error...</Text>;
     }
 }

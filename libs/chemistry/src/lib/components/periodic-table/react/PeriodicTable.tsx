@@ -1,13 +1,13 @@
 import { useContext } from 'react';
 import { AppContext } from '@elephant-games/game';
 import { Element } from '../../../models/index';
-import { AtomicElement } from '../atomic-element/AtomicElement';
-import { elementListToElementMatrix } from './periodic-table.service';
+import { AtomicElement } from '../../atomic-element/react/AtomicElement';
+import { elementListToElementMatrix } from '../../../data-access/periodic-table.service';
 import './PeriodicTable.module.scss';
 
 
 
-export const PeriodicTable = () => {
+const PeriodicTable = () => {
     const { state } = useContext(AppContext);
     const { questions } = state;
     const elementsMatrix = questions ? elementListToElementMatrix(questions as Element[]) : [];
@@ -23,4 +23,4 @@ export const PeriodicTable = () => {
 };
 
 
-export default PeriodicTable;
+export { PeriodicTable };
