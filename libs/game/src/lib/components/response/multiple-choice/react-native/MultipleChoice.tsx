@@ -1,7 +1,8 @@
 import { getRandomElements, toTitleCase } from '@elephant-games/utils';
 import React, { useContext } from 'react';
-import { Button, StyleSheet, View } from "react-native";
-import { AppActionType } from "../../../../data-access/state/app-context";
+import { StyleSheet, View } from "react-native";
+import { Button } from 'react-native-elements';
+import { AppActionType, Question } from "../../../../data-access/state/app-context";
 import { AppContext } from '../../../../data-access/state/react/app-context';
 
 const styles = StyleSheet.create({
@@ -16,26 +17,26 @@ const MultipleChoice = () => {
     const { state , dispatch} = context;
     const { gameState, quiz } = state;
 
-    const multipleChoiceOptions = getRandomElements([
+    const multipleChoiceOptions: Question[] = getRandomElements([
         ...getRandomElements(quiz.remainingQuestions, gameState.multipleChoiceResponses - 1),
         quiz.quizItem
     ], gameState.multipleChoiceResponses);
 
-    const handleResponse = (answer: unknown) => {
+    const handleResponse = (answer: string) => {
         dispatch({ type: AppActionType.AnswerQuestion, payload: answer });
     };
 
     return (
         <>{
             multipleChoiceOptions.map((responseOption) => {
-                if (typeof responseOption === "string") {
+                if (typeof responseOption.key === "string") {
                     return (
                         <View
-                            key={`flag-${responseOption}`}
+                            key={`flag-${responseOption.key}`}
                             style={styles.answer}>
                             <Button
-                                title={toTitleCase(responseOption)}
-                                onPress={() => handleResponse(responseOption)}
+                                title={toTitleCase(responseOption.key)}
+                                onPress={() => handleResponse(responseOption.key)}
                             />
                         </View>
                     );

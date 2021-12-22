@@ -1,8 +1,6 @@
-import { QuizState } from "@elephant-games/game";
+import { Question, QuizState } from "@elephant-games/game";
 
-interface Flag {
-    difficulty: number;
-};
+type Flag = any & Question;
 
 const flags: Record<string, Flag> = {
     "abkhazia": {
@@ -105,7 +103,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "brazil": {
-        difficulty: 5
+        difficulty: 2
     },
     "british-columbia": {
         difficulty: 5
@@ -135,7 +133,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "canada": {
-        difficulty: 5
+        difficulty: 1
     },
     "canary-islands": {
         difficulty: 5
@@ -156,10 +154,10 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "chile": {
-        difficulty: 5
+        difficulty: 4
     },
     "china": {
-        difficulty: 5
+        difficulty: 1
     },
     "christmas-island": {
         difficulty: 5
@@ -222,10 +220,10 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "el-salvador": {
-        difficulty: 5
+        difficulty: 6
     },
     "england": {
-        difficulty: 5
+        difficulty: 2
     },
     "equatorial-guinea": {
         difficulty: 5
@@ -255,7 +253,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "france": {
-        difficulty: 5
+        difficulty: 4
     },
     "french-polynesia": {
         difficulty: 5
@@ -273,7 +271,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "germany": {
-        difficulty: 5
+        difficulty: 3
     },
     "ghana": {
         difficulty: 5
@@ -321,22 +319,22 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "iceland": {
-        difficulty: 5
+        difficulty: 4
     },
     "india": {
-        difficulty: 5
+        difficulty: 2
     },
     "indonesia": {
         difficulty: 5
     },
     "iran": {
-        difficulty: 5
+        difficulty: 4
     },
     "iraq": {
-        difficulty: 5
+        difficulty: 4
     },
     "ireland": {
-        difficulty: 5
+        difficulty: 3
     },
     "isle-of-man": {
         difficulty: 5
@@ -345,16 +343,16 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "italy": {
-        difficulty: 5
+        difficulty: 4
     },
     "ivory-coast": {
         difficulty: 5
     },
     "jamaica": {
-        difficulty: 5
+        difficulty: 2
     },
     "japan": {
-        difficulty: 5
+        difficulty: 1
     },
     "jersey": {
         difficulty: 5
@@ -444,7 +442,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "mexico": {
-        difficulty: 5
+        difficulty: 2
     },
     "micronesia": {
         difficulty: 5
@@ -504,7 +502,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "north-korea": {
-        difficulty: 5
+        difficulty: 3
     },
     "northen-cyprus": {
         difficulty: 5
@@ -561,7 +559,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "puerto-rico": {
-        difficulty: 5
+        difficulty: 2
     },
     "qatar": {
         difficulty: 5
@@ -579,7 +577,7 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "russia": {
-        difficulty: 5
+        difficulty: 1
     },
     "rwanda": {
         difficulty: 5
@@ -654,13 +652,13 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "south-korea": {
-        difficulty: 5
+        difficulty: 3
     },
     "south-sudan": {
         difficulty: 5
     },
     "spain": {
-        difficulty: 5
+        difficulty: 3
     },
     "sri-lanka": {
         difficulty: 5
@@ -681,10 +679,10 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "sweden": {
-        difficulty: 5
+        difficulty: 3
     },
     "switzerland": {
-        difficulty: 5
+        difficulty: 3
     },
     "syria": {
         difficulty: 5
@@ -744,13 +742,13 @@ const flags: Record<string, Flag> = {
         difficulty: 5
     },
     "united-kingdom": {
-        difficulty: 5
+        difficulty: 2
     },
     "united-nations": {
-        difficulty: 5
+        difficulty: 3
     },
     "united-states-of-america": {
-        difficulty: 5
+        difficulty: 1
     },
     "uruguay": {
         difficulty: 5
@@ -787,17 +785,21 @@ const flags: Record<string, Flag> = {
     }
 };
 
-const flagKeys = ["abkhazia", "afghanistan", "aland-islands", "albania", "algeria", "american-samoa", "andorra", "angola", "anguilla", "antigua-and-barbuda", "argentina", "armenia", "aruba", "australia", "austria", "azerbaijan", "azores-islands", "bahamas", "bahrain", "balearic-islands", "bangladesh", "barbados", "basque-country", "belarus", "belgium", "belize", "benin", "bermuda", "bhutan", "bolivia", "bonaire", "bosnia-and-herzegovina", "botswana", "brazil", "british-columbia", "british-indian-ocean-territory", "british-virgin-islands", "brunei", "bulgaria", "burkina-faso", "burundi", "cambodia", "cameroon", "canada", "canary-islands", "cape-verde", "cayman-islands", "central-african-republic", "ceuta", "chad", "chile", "china", "christmas-island", "cocos-island", "colombia", "comoros", "cook-islands", "corsica", "costa-rica", "croatia", "cuba", "curacao", "cyprus", "czech-republic", "democratic-republic-of-congo", "denmark", "djibouti", "dominica", "dominican-republic", "east-timor", "ecuador", "egypt", "el-salvador", "england", "equatorial-guinea", "eritrea", "estonia", "ethiopia", "european-union", "falkland-islands", "faroe-islands", "fiji", "finland", "france", "french-polynesia", "gabon", "galapagos-islands", "gambia", "georgia", "germany", "ghana", "gibraltar", "greece", "greenland", "grenada", "guam", "guatemala", "guernsey", "guinea", "guinea-bissau", "haiti", "hawaii", "honduras", "hong-kong", "hungary", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "isle-of-man", "israel", "italy", "ivory-coast", "jamaica", "japan", "jersey", "jordan", "kazakhstan", "kenya", "kosovo", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "lesotho", "liberia", "libya", "liechtenstein", "lithuania", "luxembourg", "macao", "madagascar", "madeira", "malawi", "malaysia", "maldives", "mali", "malta", "marshall-island", "martinique", "mauritania", "mauritius", "melilla", "mexico", "micronesia", "moldova", "monaco", "mongolia", "montenegro", "montserrat", "morocco", "mozambique", "myanmar", "namibia", "nauru", "nepal", "netherlands", "new-zealand", "nicaragua", "niger", "nigeria", "niue", "norfolk-island", "north-korea", "northen-cyprus", "northern-marianas-islands", "norway", "oman", "orkney-islands", "ossetia", "otan", "pakistan", "palau", "palestine", "panama", "papua-new-guinea", "paraguay", "peru", "philippines", "pitcairn-islands", "poland", "portugal", "puerto-rico", "qatar", "rapa-nui", "republic-of-macedonia", "republic-of-the-congo", "romania", "russia", "rwanda", "saba-island", "sahrawi-arab-democratic-republic", "saint-kitts-and-nevis", "samoa", "san-marino", "sao-tome-and-principe", "sardinia", "saudi-arabia", "scotland", "senegal", "serbia", "seychelles", "sicily", "sierra-leone", "singapore", "sint-eustatius", "sint-maarten", "slovakia", "slovenia", "solomon-islands", "somalia", "somaliland", "south-africa", "south-korea", "south-sudan", "spain", "sri-lanka", "st-barts", "st-lucia", "st-vincent-and-the-grenadines", "sudan", "suriname", "sweden", "switzerland", "syria", "taiwan", "tajikistan", "tanzania", "thailand", "tibet", "togo", "tokelau", "tonga", "transnistria", "trinidad-and-tobago", "tubalu", "tunisia", "turkey", "turkmenistan", "turks-and-caicos", "uganda", "ukraine", "united-arab-emirates", "united-kingdom", "united-nations", "united-states-of-america", "uruguay", "uzbekistn", "vanuatu", "vatican-city", "venezuela", "vietnam", "virgin-islands", "wales", "yemen", "zambia", "zimbabwe"];
-
-const fetchFlags = () => {
-    return Promise.resolve([...flagKeys]);
+const fetchFlags = (): Promise<Flag[]> => {
+    const mappedFlags = Object.keys(flags).map((country) => {
+        return {
+            key: country,
+            ...flags[country]
+        };
+    })
+    return Promise.resolve([...mappedFlags]);
 };
 
 const fetchFlag = (flag: string) => {
     return flags[flag];
 }
 
-const isAnswerCorrect = (QuizState: QuizState<string>, answer: string): boolean => (QuizState.quizItem === answer);
+const isAnswerCorrect = (quizState: QuizState<Question>, answer: string): boolean => (quizState.quizItem?.key === answer);
 
 
 export { fetchFlags, fetchFlag, isAnswerCorrect };

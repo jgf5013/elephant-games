@@ -1,6 +1,6 @@
 import * as elementsJson from './periodic-table.mock-data.json';
 
-import { Element } from '../models';
+import { Element, ElementQuestion } from '../models';
 import { QuizState } from "@elephant-games/game";
 
 import { TABLE_COLUMNS, TABLE_ROWS } from '../constants';
@@ -33,7 +33,7 @@ const elementListToElementMatrix = (elements: Element[]): ({atomicElement: Eleme
 };
 
 
-const fetchElements = async (): Promise<Element[]> => {
+const fetchElements = async (): Promise<ElementQuestion[]> => {
     // const variables = { limit: 1000 };
     // const apiData: any = await API.graphql(graphqlOperation(listElements, variables));
     // const nonDeletedElements = apiData.data.listElements.items.filter((e: any) => !e._deleted);

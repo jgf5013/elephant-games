@@ -25,9 +25,11 @@ export const appReducer: Reducer<AppState<unknown>, AppAction> = (state, action)
         case AppActionType.QuizPoolLoaded:
           return handleQuestionsLoaded(state, action);
         case AppActionType.AnswerQuestion:
-          return isAnswerCorrect(state.gameState.game, state.quiz, action.payload) ?
-            { ...state, quiz: getNextQuestion(state.quiz) } :
-            { ...state, quiz: markIncorrect(state.quiz, action.payload) };
+            console.log('appReducer - state.quiz=', state.quiz);
+            console.log('appReducer - action.payload=', action.payload);
+            return isAnswerCorrect(state.gameState.game, state.quiz, action.payload) ?
+                { ...state, quiz: getNextQuestion(state.quiz) } :
+                { ...state, quiz: markIncorrect(state.quiz, action.payload) };
         default:
           throw new Error(`Unrecognized action. action.type=${action.type}`);
     }

@@ -7,22 +7,16 @@ import { Game, Screen } from "../../../data-access/state/app-context";
 import { Button } from 'react-native-elements';
 
 const styles = StyleSheet.create({
-    header: {
-      backgroundColor: 'floralwhite',
-      alignItems: 'center',
-      justifyContent: 'center',
-      paddingVertical: 24,
+    bodyContainer: {
+        display: 'flex',
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'center'
     },
     body: {
-        flex: 1,
         display: 'flex',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        backgroundColor: Colors.white,
+        flexDirection: 'column',
         justifyContent: 'space-around'
-    },
-    gameItem: {
-        width: '40%'
     }
 });
 
@@ -33,19 +27,16 @@ const Home = ({ navigation }) => {
     };
 
     return (
-        <>
-            <View style={styles.header}>  
-                <Text>Select Game</Text>
-            </View>
+        <View style={styles.bodyContainer}>
             <View style={styles.body}>
-                <Button style={styles.gameItem}
+                <Button
                     title="Play"
-                    onPress={() => handleOnClick("quiz")} />
-                <Button style={styles.gameItem}
+                    onPress={() => handleOnClick("Quiz")} />
+                <Button
                     title="Settings"
-                    onPress={() => handleOnClick("settings")} />
+                    onPress={() => handleOnClick("Settings")} />
             </View>
-        </>
+        </View>
     );
 };
 

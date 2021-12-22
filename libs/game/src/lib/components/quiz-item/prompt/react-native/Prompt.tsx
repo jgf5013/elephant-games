@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { StyleSheet, View, Text } from "react-native";
-import { AppState, Game, QuizState } from "../../../../data-access/state/app-context";
+import { AppState, Game, Question, QuizState } from "../../../../data-access/state/app-context";
 import { AppContext } from '../../../../data-access/state/react/app-context';
 
 import { Flag } from '@elephant-games/geopolitical';
@@ -19,15 +19,16 @@ export const Prompt = () => {
     );
 };
 
-interface GetGamePromptOptions<E> {
+interface GetGamePromptOptions<Question> {
     game: Game,
-    quiz: QuizState<E>
+    quiz: QuizState<Question>
 };
 
-const getGamePrompt = (options: GetGamePromptOptions<unknown>) => {
+const getGamePrompt = (options: GetGamePromptOptions<Question>) => {
     switch(options.game) {
         case "flags":
-            return options.quiz.quizItem ? <Flag country={options.quiz.quizItem as string} /> : null;
+            console.log('getGamePrompt - options.quiz.quizItem=', options.quiz.quizItem);
+            return options.quiz.quizItem ? <Flag country={options.quiz.quizItem.key} /> : null;
         case "periodic-table":
             return <Text>{options.quiz.quizItem ? options.quiz.quizItem[options.quiz.promptCategory] : null}</Text>
         default:

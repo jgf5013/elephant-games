@@ -8,7 +8,7 @@ import { MultipleChoice } from '../../response/multiple-choice/react-native/Mult
 
 const styles = StyleSheet.create({
     header: {
-      backgroundColor: 'floralwhite',
+    //   backgroundColor: 'floralwhite',
       flex: 1,
       alignItems: 'center',
       justifyContent: 'center',

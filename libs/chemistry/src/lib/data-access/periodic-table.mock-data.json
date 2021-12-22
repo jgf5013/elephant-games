@@ -33,7 +33,8 @@
 
 					"_lastChangedAt": 1625512034469,
 					"createdAt": "2021-07-05T19:07:14.469Z",
-					"updatedAt": "2021-07-05T19:07:14.469Z"
+					"updatedAt": "2021-07-05T19:07:14.469Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "62b61d60-c935-4b25-9979-3ac1827dc046",
@@ -68,7 +69,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438247,
 					"createdAt": "2021-07-05T16:07:46.712Z",
-					"updatedAt": "2021-07-05T16:07:46.712Z"
+					"updatedAt": "2021-07-05T16:07:46.712Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1b50690e-f850-49f8-bc97-e2db98ccf04e",
@@ -126,7 +128,8 @@
 
 					"_lastChangedAt": 1625512034454,
 					"createdAt": "2021-07-05T19:07:14.454Z",
-					"updatedAt": "2021-07-05T19:07:14.454Z"
+					"updatedAt": "2021-07-05T19:07:14.454Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "47064fa7-390f-489d-9411-88322518f677",
@@ -173,7 +176,8 @@
 
 					"_lastChangedAt": 1625512034454,
 					"createdAt": "2021-07-05T19:07:14.453Z",
-					"updatedAt": "2021-07-05T19:07:14.453Z"
+					"updatedAt": "2021-07-05T19:07:14.453Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "03681c4d-724e-4b3d-87bf-89868ba88f3d",
@@ -215,7 +219,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438199,
 					"createdAt": "2021-07-05T17:46:34.132Z",
-					"updatedAt": "2021-07-05T17:46:34.132Z"
+					"updatedAt": "2021-07-05T17:46:34.132Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e3377869-dbc4-4be3-ba5c-127c157e9379",
@@ -256,7 +261,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438188,
 					"createdAt": "2021-07-05T17:46:34.107Z",
-					"updatedAt": "2021-07-05T17:46:34.107Z"
+					"updatedAt": "2021-07-05T17:46:34.107Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "de194b48-2b24-4bf2-b27c-b24b79636c2d",
@@ -317,7 +323,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438149,
 					"createdAt": "2021-07-05T17:46:34.109Z",
-					"updatedAt": "2021-07-05T17:46:34.109Z"
+					"updatedAt": "2021-07-05T17:46:34.109Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2b995673-802d-4a48-b2a3-3c2fea679460",
@@ -359,7 +366,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438231,
 					"createdAt": "2021-07-05T16:07:46.692Z",
-					"updatedAt": "2021-07-05T16:07:46.692Z"
+					"updatedAt": "2021-07-05T16:07:46.692Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9f4e4dce-51b7-4a5f-8ccf-05d0b0854d3d",
@@ -394,7 +402,8 @@
 
 					"_lastChangedAt": 1625512034506,
 					"createdAt": "2021-07-05T19:07:14.505Z",
-					"updatedAt": "2021-07-05T19:07:14.505Z"
+					"updatedAt": "2021-07-05T19:07:14.505Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "12501584-66ce-41d2-b108-70257b92f4d3",
@@ -429,7 +438,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438231,
 					"createdAt": "2021-07-05T17:49:22.490Z",
-					"updatedAt": "2021-07-05T17:49:22.490Z"
+					"updatedAt": "2021-07-05T17:49:22.490Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f6cea468-b2db-465e-8f76-91b8ae7c3500",
@@ -481,7 +491,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438246,
 					"createdAt": "2021-07-05T17:46:34.071Z",
-					"updatedAt": "2021-07-05T17:46:34.071Z"
+					"updatedAt": "2021-07-05T17:46:34.071Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "324d3f74-d81f-4523-a365-e45e600bcd36",
@@ -528,7 +539,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438232,
 					"createdAt": "2021-07-05T17:49:22.490Z",
-					"updatedAt": "2021-07-05T17:49:22.490Z"
+					"updatedAt": "2021-07-05T17:49:22.490Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4a8c150a-cae3-44bc-96cb-db0daf83bd91",
@@ -563,7 +575,8 @@
 
 					"_lastChangedAt": 1625512034495,
 					"createdAt": "2021-07-05T19:07:14.495Z",
-					"updatedAt": "2021-07-05T19:07:14.495Z"
+					"updatedAt": "2021-07-05T19:07:14.495Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a020a6e1-01e8-412f-bab4-2975f850cc62",
@@ -605,7 +618,8 @@
 
 					"_lastChangedAt": 1625512034415,
 					"createdAt": "2021-07-05T19:07:14.415Z",
-					"updatedAt": "2021-07-05T19:07:14.415Z"
+					"updatedAt": "2021-07-05T19:07:14.415Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f2dc073d-737f-4504-8616-2ca90a92ded3",
@@ -640,7 +654,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438237,
 					"createdAt": "2021-07-05T16:07:46.525Z",
-					"updatedAt": "2021-07-05T16:07:46.525Z"
+					"updatedAt": "2021-07-05T16:07:46.525Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a8517cfa-fa60-4ea9-b799-17da54b59989",
@@ -688,7 +703,8 @@
 
 					"_lastChangedAt": 1625512034458,
 					"createdAt": "2021-07-05T19:07:14.458Z",
-					"updatedAt": "2021-07-05T19:07:14.458Z"
+					"updatedAt": "2021-07-05T19:07:14.458Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "617da66a-5236-4313-816f-e9dce249afa3",
@@ -723,7 +739,8 @@
 
 					"_lastChangedAt": 1625512034498,
 					"createdAt": "2021-07-05T19:07:14.497Z",
-					"updatedAt": "2021-07-05T19:07:14.497Z"
+					"updatedAt": "2021-07-05T19:07:14.497Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c5c5c1a1-a31b-471e-8d4f-ca55ba7a7296",
@@ -771,7 +788,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438235,
 					"createdAt": "2021-07-05T16:07:46.548Z",
-					"updatedAt": "2021-07-05T16:07:46.548Z"
+					"updatedAt": "2021-07-05T16:07:46.548Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6e13f893-ae95-4b00-bcf7-1a118414366e",
@@ -806,7 +824,8 @@
 
 					"_lastChangedAt": 1625512034588,
 					"createdAt": "2021-07-05T19:07:14.587Z",
-					"updatedAt": "2021-07-05T19:07:14.587Z"
+					"updatedAt": "2021-07-05T19:07:14.587Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ad46dd06-3a2d-4e79-8f65-f446a1ff1271",
@@ -841,7 +860,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438241,
 					"createdAt": "2021-07-05T16:07:46.643Z",
-					"updatedAt": "2021-07-05T16:07:46.643Z"
+					"updatedAt": "2021-07-05T16:07:46.643Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0939b584-2c9c-4de4-8a1e-1a265d5ebb21",
@@ -892,7 +912,8 @@
 
 					"_lastChangedAt": 1625512034441,
 					"createdAt": "2021-07-05T19:07:14.440Z",
-					"updatedAt": "2021-07-05T19:07:14.440Z"
+					"updatedAt": "2021-07-05T19:07:14.440Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "3f3a6622-3f27-4b5d-8293-8001f7183cb3",
@@ -927,7 +948,8 @@
 
 					"_lastChangedAt": 1625512034495,
 					"createdAt": "2021-07-05T19:07:14.495Z",
-					"updatedAt": "2021-07-05T19:07:14.495Z"
+					"updatedAt": "2021-07-05T19:07:14.495Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "87cae29a-e828-4010-8156-fe10d2bbb9c3",
@@ -970,7 +992,8 @@
 
 					"_lastChangedAt": 1625512034506,
 					"createdAt": "2021-07-05T19:07:14.505Z",
-					"updatedAt": "2021-07-05T19:07:14.505Z"
+					"updatedAt": "2021-07-05T19:07:14.505Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6bdfee96-02f3-492d-92f3-0842e7da3ddc",
@@ -1005,7 +1028,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438239,
 					"createdAt": "2021-07-05T16:07:46.621Z",
-					"updatedAt": "2021-07-05T16:07:46.621Z"
+					"updatedAt": "2021-07-05T16:07:46.621Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "29f26a26-f35d-4afc-bf25-b80e299560ff",
@@ -1040,7 +1064,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438229,
 					"createdAt": "2021-07-05T17:46:34.111Z",
-					"updatedAt": "2021-07-05T17:46:34.111Z"
+					"updatedAt": "2021-07-05T17:46:34.111Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9af97758-f8f7-48be-958b-06acf41dc833",
@@ -1075,7 +1100,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438231,
 					"createdAt": "2021-07-05T16:07:46.533Z",
-					"updatedAt": "2021-07-05T16:07:46.533Z"
+					"updatedAt": "2021-07-05T16:07:46.533Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "add77446-511f-4836-918c-50adafd0caa9",
@@ -1110,7 +1136,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438240,
 					"createdAt": "2021-07-05T17:46:34.109Z",
-					"updatedAt": "2021-07-05T17:46:34.109Z"
+					"updatedAt": "2021-07-05T17:46:34.109Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ee9276f2-6303-41b2-9047-b27caeb815d0",
@@ -1152,7 +1179,8 @@
 
 					"_lastChangedAt": 1625512034473,
 					"createdAt": "2021-07-05T19:07:14.472Z",
-					"updatedAt": "2021-07-05T19:07:14.472Z"
+					"updatedAt": "2021-07-05T19:07:14.472Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f6f69f91-b95b-47e8-91f3-cb568f337fbf",
@@ -1187,7 +1215,8 @@
 
 					"_lastChangedAt": 1625512034612,
 					"createdAt": "2021-07-05T19:07:14.612Z",
-					"updatedAt": "2021-07-05T19:07:14.612Z"
+					"updatedAt": "2021-07-05T19:07:14.612Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "898bd9c1-b312-4e02-af79-2d8584645ead",
@@ -1222,7 +1251,8 @@
 
 					"_lastChangedAt": 1625512034599,
 					"createdAt": "2021-07-05T19:07:14.599Z",
-					"updatedAt": "2021-07-05T19:07:14.599Z"
+					"updatedAt": "2021-07-05T19:07:14.599Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9db7fc72-2874-4d85-94aa-c5923ae8a50d",
@@ -1257,7 +1287,8 @@
 
 					"_lastChangedAt": 1625512034594,
 					"createdAt": "2021-07-05T19:07:14.593Z",
-					"updatedAt": "2021-07-05T19:07:14.593Z"
+					"updatedAt": "2021-07-05T19:07:14.593Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9034868b-b532-4c18-ba59-93f4941cecc3",
@@ -1319,7 +1350,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438258,
 					"createdAt": "2021-07-05T17:46:34.086Z",
-					"updatedAt": "2021-07-05T17:46:34.086Z"
+					"updatedAt": "2021-07-05T17:46:34.086Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ab56d405-d283-458c-be23-ba5963ac8ab9",
@@ -1354,7 +1386,8 @@
 
 					"_lastChangedAt": 1625512034455,
 					"createdAt": "2021-07-05T19:07:14.454Z",
-					"updatedAt": "2021-07-05T19:07:14.454Z"
+					"updatedAt": "2021-07-05T19:07:14.454Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b1f7a7c4-13d9-4599-a66b-fd4955adffa3",
@@ -1400,7 +1433,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438238,
 					"createdAt": "2021-07-05T16:07:46.510Z",
-					"updatedAt": "2021-07-05T16:07:46.510Z"
+					"updatedAt": "2021-07-05T16:07:46.510Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ead51ec1-bfe3-4978-99c5-f16e4ab2206d",
@@ -1435,7 +1469,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438253,
 					"createdAt": "2021-07-05T17:46:34.074Z",
-					"updatedAt": "2021-07-05T17:46:34.074Z"
+					"updatedAt": "2021-07-05T17:46:34.074Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9f992c91-5a2f-4323-9e0b-329c58abe57b",
@@ -1470,7 +1505,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438275,
 					"createdAt": "2021-07-05T16:07:46.632Z",
-					"updatedAt": "2021-07-05T16:07:46.632Z"
+					"updatedAt": "2021-07-05T16:07:46.632Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d19a47bf-8784-4fbf-acb1-84aa662511c6",
@@ -1505,7 +1541,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438228,
 					"createdAt": "2021-07-05T17:49:22.462Z",
-					"updatedAt": "2021-07-05T17:49:22.462Z"
+					"updatedAt": "2021-07-05T17:49:22.462Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "32a91c0b-e584-4c2b-b015-7bb947f7a4b9",
@@ -1540,7 +1577,8 @@
 
 					"_lastChangedAt": 1625512034591,
 					"createdAt": "2021-07-05T19:07:14.591Z",
-					"updatedAt": "2021-07-05T19:07:14.591Z"
+					"updatedAt": "2021-07-05T19:07:14.591Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b5230d45-212a-4393-af84-0bffe72b8908",
@@ -1590,7 +1628,8 @@
 
 					"_lastChangedAt": 1625512034455,
 					"createdAt": "2021-07-05T19:07:14.454Z",
-					"updatedAt": "2021-07-05T19:07:14.454Z"
+					"updatedAt": "2021-07-05T19:07:14.454Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9bc0aca3-a963-453a-9a4f-8102088bfc82",
@@ -1625,7 +1664,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438239,
 					"createdAt": "2021-07-05T16:07:46.549Z",
-					"updatedAt": "2021-07-05T16:07:46.549Z"
+					"updatedAt": "2021-07-05T16:07:46.549Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b9bda907-65a4-484d-b21b-afe07543b9b0",
@@ -1660,7 +1700,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438234,
 					"createdAt": "2021-07-05T17:49:22.503Z",
-					"updatedAt": "2021-07-05T17:49:22.503Z"
+					"updatedAt": "2021-07-05T17:49:22.503Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f3d50363-dd37-4c93-8854-fd06cdaacf25",
@@ -1695,7 +1736,8 @@
 
 					"_lastChangedAt": 1625512034552,
 					"createdAt": "2021-07-05T19:07:14.552Z",
-					"updatedAt": "2021-07-05T19:07:14.552Z"
+					"updatedAt": "2021-07-05T19:07:14.552Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "509d9e9b-729e-4d32-a728-c192ec0664a6",
@@ -1730,7 +1772,8 @@
 
 					"_lastChangedAt": 1625512034474,
 					"createdAt": "2021-07-05T19:07:14.473Z",
-					"updatedAt": "2021-07-05T19:07:14.473Z"
+					"updatedAt": "2021-07-05T19:07:14.473Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a77c14c3-dfc7-4623-8fb6-7f0a0b03d61d",
@@ -1796,7 +1839,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438253,
 					"createdAt": "2021-07-05T17:46:34.097Z",
-					"updatedAt": "2021-07-05T17:46:34.097Z"
+					"updatedAt": "2021-07-05T17:46:34.097Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "43a0542c-e4d5-4424-bc64-6ff125ddb865",
@@ -1859,7 +1903,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438281,
 					"createdAt": "2021-07-05T17:46:34.077Z",
-					"updatedAt": "2021-07-05T17:46:34.077Z"
+					"updatedAt": "2021-07-05T17:46:34.077Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c5b73c44-a936-4f5a-8913-807b757c0a9c",
@@ -1904,7 +1949,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438248,
 					"createdAt": "2021-07-05T17:46:34.069Z",
-					"updatedAt": "2021-07-05T17:46:34.069Z"
+					"updatedAt": "2021-07-05T17:46:34.069Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e1769f2f-6ec4-486a-a5e6-e7d0fc5bde89",
@@ -1939,7 +1985,8 @@
 
 					"_lastChangedAt": 1625512034614,
 					"createdAt": "2021-07-05T19:07:14.613Z",
-					"updatedAt": "2021-07-05T19:07:14.613Z"
+					"updatedAt": "2021-07-05T19:07:14.613Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9007831e-2de1-4c96-8232-fedfe72e818c",
@@ -1974,7 +2021,8 @@
 
 					"_lastChangedAt": 1625512034588,
 					"createdAt": "2021-07-05T19:07:14.587Z",
-					"updatedAt": "2021-07-05T19:07:14.587Z"
+					"updatedAt": "2021-07-05T19:07:14.587Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "41360dd5-7ec0-4cb7-ab11-e8e6aff76f29",
@@ -2009,7 +2057,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438244,
 					"createdAt": "2021-07-05T17:49:22.529Z",
-					"updatedAt": "2021-07-05T17:49:22.529Z"
+					"updatedAt": "2021-07-05T17:49:22.529Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "175b6861-b1ae-4117-bcc2-6d3bf8424988",
@@ -2044,7 +2093,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438245,
 					"createdAt": "2021-07-05T17:48:51.330Z",
-					"updatedAt": "2021-07-05T17:48:51.330Z"
+					"updatedAt": "2021-07-05T17:48:51.330Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "996229cc-bef1-4b35-ab1f-fb2f1ff60363",
@@ -2079,7 +2129,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438275,
 					"createdAt": "2021-07-05T17:48:51.340Z",
-					"updatedAt": "2021-07-05T17:48:51.340Z"
+					"updatedAt": "2021-07-05T17:48:51.340Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0150ed7e-8afa-49e5-ad94-41bb416b4ef4",
@@ -2114,7 +2165,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438224,
 					"createdAt": "2021-07-05T17:48:51.324Z",
-					"updatedAt": "2021-07-05T17:48:51.324Z"
+					"updatedAt": "2021-07-05T17:48:51.324Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "09292aee-e808-452e-b23a-86046ca13eb6",
@@ -2149,7 +2201,8 @@
 
 					"_lastChangedAt": 1625512034614,
 					"createdAt": "2021-07-05T19:07:14.614Z",
-					"updatedAt": "2021-07-05T19:07:14.614Z"
+					"updatedAt": "2021-07-05T19:07:14.614Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "21dfc1f4-a5e3-4f68-a04e-2d12f1ebbb99",
@@ -2203,7 +2256,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438222,
 					"createdAt": "2021-07-05T17:46:34.078Z",
-					"updatedAt": "2021-07-05T17:46:34.078Z"
+					"updatedAt": "2021-07-05T17:46:34.078Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e428a333-d982-46ed-9801-184bebe00b19",
@@ -2244,7 +2298,8 @@
 
 					"_lastChangedAt": 1625512034487,
 					"createdAt": "2021-07-05T19:07:14.486Z",
-					"updatedAt": "2021-07-05T19:07:14.486Z"
+					"updatedAt": "2021-07-05T19:07:14.486Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "70f4dacc-e264-45ad-982d-d3f61338d0c9",
@@ -2279,7 +2334,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438234,
 					"createdAt": "2021-07-05T17:48:51.326Z",
-					"updatedAt": "2021-07-05T17:48:51.326Z"
+					"updatedAt": "2021-07-05T17:48:51.326Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "85bc5867-316e-40f1-81d0-b691420009bf",
@@ -2322,7 +2378,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438270,
 					"createdAt": "2021-07-05T17:49:22.459Z",
-					"updatedAt": "2021-07-05T17:49:22.459Z"
+					"updatedAt": "2021-07-05T17:49:22.459Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "262570cc-0b38-418c-b67f-e672087af4c6",
@@ -2357,7 +2414,8 @@
 
 					"_lastChangedAt": 1625512034562,
 					"createdAt": "2021-07-05T19:07:14.562Z",
-					"updatedAt": "2021-07-05T19:07:14.562Z"
+					"updatedAt": "2021-07-05T19:07:14.562Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "101e4e27-5712-4f8a-bcf5-260249c6ee5c",
@@ -2398,7 +2456,8 @@
 
 					"_lastChangedAt": 1625512034513,
 					"createdAt": "2021-07-05T19:07:14.513Z",
-					"updatedAt": "2021-07-05T19:07:14.513Z"
+					"updatedAt": "2021-07-05T19:07:14.513Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "49446993-822c-46eb-9df2-39d93bb13ffd",
@@ -2433,7 +2492,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438260,
 					"createdAt": "2021-07-05T17:49:22.503Z",
-					"updatedAt": "2021-07-05T17:49:22.503Z"
+					"updatedAt": "2021-07-05T17:49:22.503Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b1c8c8bc-fd02-4548-9e6d-8a60f65630e1",
@@ -2490,7 +2550,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438260,
 					"createdAt": "2021-07-05T17:46:34.092Z",
-					"updatedAt": "2021-07-05T17:46:34.092Z"
+					"updatedAt": "2021-07-05T17:46:34.092Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1806c359-2864-4941-a3c2-b31cfa471111",
@@ -2525,7 +2586,8 @@
 
 					"_lastChangedAt": 1625512034520,
 					"createdAt": "2021-07-05T19:07:14.520Z",
-					"updatedAt": "2021-07-05T19:07:14.520Z"
+					"updatedAt": "2021-07-05T19:07:14.520Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "11dc3340-936b-439a-9556-dce2fd08506c",
@@ -2560,7 +2622,8 @@
 
 					"_lastChangedAt": 1625512034613,
 					"createdAt": "2021-07-05T19:07:14.613Z",
-					"updatedAt": "2021-07-05T19:07:14.613Z"
+					"updatedAt": "2021-07-05T19:07:14.613Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1fffffd4-31fa-4cfd-8798-c1ff7123d5b3",
@@ -2601,7 +2664,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438258,
 					"createdAt": "2021-07-05T17:46:34.022Z",
-					"updatedAt": "2021-07-05T17:46:34.022Z"
+					"updatedAt": "2021-07-05T17:46:34.022Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "55758ab7-e48c-4d51-8f0f-d9a5da66fe1a",
@@ -2645,7 +2709,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438247,
 					"createdAt": "2021-07-05T17:46:34.095Z",
-					"updatedAt": "2021-07-05T17:46:34.095Z"
+					"updatedAt": "2021-07-05T17:46:34.095Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a39f14cd-8305-40e7-b3e3-b71f54fd8441",
@@ -2680,7 +2745,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438224,
 					"createdAt": "2021-07-05T17:46:34.056Z",
-					"updatedAt": "2021-07-05T17:46:34.056Z"
+					"updatedAt": "2021-07-05T17:46:34.056Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d3c5dcd4-e582-4f42-8e39-e2266bdc7448",
@@ -2732,7 +2798,8 @@
 
 					"_lastChangedAt": 1625512034434,
 					"createdAt": "2021-07-05T19:07:14.434Z",
-					"updatedAt": "2021-07-05T19:07:14.434Z"
+					"updatedAt": "2021-07-05T19:07:14.434Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c54b9f62-1010-41c8-8c92-a09a3f9ec925",
@@ -2797,7 +2864,8 @@
 
 					"_lastChangedAt": 1625512034448,
 					"createdAt": "2021-07-05T19:07:14.447Z",
-					"updatedAt": "2021-07-05T19:07:14.447Z"
+					"updatedAt": "2021-07-05T19:07:14.447Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "df24e1de-4e1c-4ef6-8d53-606333f076bd",
@@ -2838,7 +2906,8 @@
 
 					"_lastChangedAt": 1625512034432,
 					"createdAt": "2021-07-05T19:07:14.431Z",
-					"updatedAt": "2021-07-05T19:07:14.431Z"
+					"updatedAt": "2021-07-05T19:07:14.431Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e9819951-cd04-431d-b65e-223b8a77e2b7",
@@ -2881,7 +2950,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438239,
 					"createdAt": "2021-07-05T17:48:51.312Z",
-					"updatedAt": "2021-07-05T17:48:51.312Z"
+					"updatedAt": "2021-07-05T17:48:51.312Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "676bc2c7-6384-41bb-95ed-d97f028fa04f",
@@ -2916,7 +2986,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438228,
 					"createdAt": "2021-07-05T17:46:34.055Z",
-					"updatedAt": "2021-07-05T17:46:34.055Z"
+					"updatedAt": "2021-07-05T17:46:34.055Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ea07f802-42ab-4f85-a456-eacff4333858",
@@ -2951,7 +3022,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438253,
 					"createdAt": "2021-07-05T16:07:46.646Z",
-					"updatedAt": "2021-07-05T16:07:46.646Z"
+					"updatedAt": "2021-07-05T16:07:46.646Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "aa8dc152-afac-430a-9368-5e18c06a09cd",
@@ -3014,7 +3086,8 @@
 
 					"_lastChangedAt": 1625512034450,
 					"createdAt": "2021-07-05T19:07:14.450Z",
-					"updatedAt": "2021-07-05T19:07:14.450Z"
+					"updatedAt": "2021-07-05T19:07:14.450Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "baaf537e-414d-4e11-9496-068675b3dfcf",
@@ -3070,7 +3143,8 @@
 
 					"_lastChangedAt": 1625512034454,
 					"createdAt": "2021-07-05T19:07:14.453Z",
-					"updatedAt": "2021-07-05T19:07:14.453Z"
+					"updatedAt": "2021-07-05T19:07:14.453Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "91d0ce2f-6bfc-4454-a3f5-1a722af5e1ed",
@@ -3128,7 +3202,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438245,
 					"createdAt": "2021-07-05T17:49:22.466Z",
-					"updatedAt": "2021-07-05T17:49:22.466Z"
+					"updatedAt": "2021-07-05T17:49:22.466Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d2a71c63-2861-4cf0-ae34-af290281a323",
@@ -3163,7 +3238,8 @@
 
 					"_lastChangedAt": 1625512034501,
 					"createdAt": "2021-07-05T19:07:14.501Z",
-					"updatedAt": "2021-07-05T19:07:14.501Z"
+					"updatedAt": "2021-07-05T19:07:14.501Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "66c3ea31-556f-49b7-8214-2c8c4eaf4565",
@@ -3228,7 +3304,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438246,
 					"createdAt": "2021-07-05T17:46:34.077Z",
-					"updatedAt": "2021-07-05T17:46:34.077Z"
+					"updatedAt": "2021-07-05T17:46:34.077Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "81a8dfd6-a474-427c-ad00-5030c585ff86",
@@ -3263,7 +3340,8 @@
 
 					"_lastChangedAt": 1625512034503,
 					"createdAt": "2021-07-05T19:07:14.502Z",
-					"updatedAt": "2021-07-05T19:07:14.502Z"
+					"updatedAt": "2021-07-05T19:07:14.502Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "adf598b9-0db6-4e3a-bda0-c9b689310da9",
@@ -3314,7 +3392,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438260,
 					"createdAt": "2021-07-05T17:48:51.314Z",
-					"updatedAt": "2021-07-05T17:48:51.314Z"
+					"updatedAt": "2021-07-05T17:48:51.314Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "862859a1-bb5d-4118-b51b-efadce63c4c2",
@@ -3356,7 +3435,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438246,
 					"createdAt": "2021-07-05T17:46:34.131Z",
-					"updatedAt": "2021-07-05T17:46:34.131Z"
+					"updatedAt": "2021-07-05T17:46:34.131Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "938ab707-a947-41f4-b419-2c99d9caf7c8",
@@ -3391,7 +3471,8 @@
 
 					"_lastChangedAt": 1625512034614,
 					"createdAt": "2021-07-05T19:07:14.614Z",
-					"updatedAt": "2021-07-05T19:07:14.614Z"
+					"updatedAt": "2021-07-05T19:07:14.614Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "18c292c4-193e-4e53-bc78-6d3bd2c2685c",
@@ -3426,7 +3507,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438261,
 					"createdAt": "2021-07-05T17:49:22.502Z",
-					"updatedAt": "2021-07-05T17:49:22.502Z"
+					"updatedAt": "2021-07-05T17:49:22.502Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "aa1269cb-03dc-4d2e-91b1-e37a795f03aa",
@@ -3461,7 +3543,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438255,
 					"createdAt": "2021-07-05T17:46:34.123Z",
-					"updatedAt": "2021-07-05T17:46:34.123Z"
+					"updatedAt": "2021-07-05T17:46:34.123Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "10535eb6-73a6-4c9c-97ee-839e96851717",
@@ -3496,7 +3579,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438241,
 					"createdAt": "2021-07-05T16:07:46.570Z",
-					"updatedAt": "2021-07-05T16:07:46.570Z"
+					"updatedAt": "2021-07-05T16:07:46.570Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2b294258-8cc3-4d82-9e86-4a3f508bc8d7",
@@ -3531,7 +3615,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438259,
 					"createdAt": "2021-07-05T17:46:34.112Z",
-					"updatedAt": "2021-07-05T17:46:34.112Z"
+					"updatedAt": "2021-07-05T17:46:34.112Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "446b0ab8-4416-4fbe-b87f-3d781110cef8",
@@ -3572,7 +3657,8 @@
 
 					"_lastChangedAt": 1625512034437,
 					"createdAt": "2021-07-05T19:07:14.436Z",
-					"updatedAt": "2021-07-05T19:07:14.436Z"
+					"updatedAt": "2021-07-05T19:07:14.436Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "3c1b68f4-2bff-4c13-a83a-110fa35559d5",
@@ -3607,7 +3693,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438250,
 					"createdAt": "2021-07-05T16:07:46.690Z",
-					"updatedAt": "2021-07-05T16:07:46.690Z"
+					"updatedAt": "2021-07-05T16:07:46.690Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c95d6512-cc1e-4d3b-946a-7e57abc14118",
@@ -3642,7 +3729,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438247,
 					"createdAt": "2021-07-05T16:07:46.710Z",
-					"updatedAt": "2021-07-05T16:07:46.710Z"
+					"updatedAt": "2021-07-05T16:07:46.710Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b9454b69-4277-41b7-966b-29b0e5a915a8",
@@ -3683,7 +3771,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438261,
 					"createdAt": "2021-07-05T17:46:34.141Z",
-					"updatedAt": "2021-07-05T17:46:34.141Z"
+					"updatedAt": "2021-07-05T17:46:34.141Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2b0f2860-8d81-45d2-852a-a281307f9476",
@@ -3729,7 +3818,8 @@
 
 					"_lastChangedAt": 1625512034442,
 					"createdAt": "2021-07-05T19:07:14.441Z",
-					"updatedAt": "2021-07-05T19:07:14.441Z"
+					"updatedAt": "2021-07-05T19:07:14.441Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f7b4242a-9e13-42b7-a228-f378977531b7",
@@ -3764,7 +3854,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438270,
 					"createdAt": "2021-07-05T16:07:46.635Z",
-					"updatedAt": "2021-07-05T16:07:46.635Z"
+					"updatedAt": "2021-07-05T16:07:46.635Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "adb3027f-f67f-499a-aef3-66b02eca6371",
@@ -3823,7 +3914,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438241,
 					"createdAt": "2021-07-05T17:46:34.088Z",
-					"updatedAt": "2021-07-05T17:46:34.088Z"
+					"updatedAt": "2021-07-05T17:46:34.088Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2851b3c7-7935-4e09-84e3-617be7fb884b",
@@ -3858,7 +3950,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438261,
 					"createdAt": "2021-07-05T17:46:34.091Z",
-					"updatedAt": "2021-07-05T17:46:34.091Z"
+					"updatedAt": "2021-07-05T17:46:34.091Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "110fe76e-15de-4c0c-939d-a70e6d97d7ee",
@@ -3899,7 +3992,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438260,
 					"createdAt": "2021-07-05T16:07:46.566Z",
-					"updatedAt": "2021-07-05T16:07:46.566Z"
+					"updatedAt": "2021-07-05T16:07:46.566Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0baaa133-5640-4039-b015-5e8f7a513ad5",
@@ -3956,7 +4050,8 @@
 
 					"_lastChangedAt": 1625512034446,
 					"createdAt": "2021-07-05T19:07:14.445Z",
-					"updatedAt": "2021-07-05T19:07:14.445Z"
+					"updatedAt": "2021-07-05T19:07:14.445Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b946a85c-757e-46aa-9be5-63a5d2838eb2",
@@ -3991,7 +4086,8 @@
 
 					"_lastChangedAt": 1625512034623,
 					"createdAt": "2021-07-05T19:07:14.623Z",
-					"updatedAt": "2021-07-05T19:07:14.623Z"
+					"updatedAt": "2021-07-05T19:07:14.623Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5bc7fedf-d4e8-424b-b452-076c1414e975",
@@ -4026,7 +4122,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438275,
 					"createdAt": "2021-07-05T17:48:51.308Z",
-					"updatedAt": "2021-07-05T17:48:51.308Z"
+					"updatedAt": "2021-07-05T17:48:51.308Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c25fb067-6281-4121-a71d-3d84d5d0c451",
@@ -4061,7 +4158,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438259,
 					"createdAt": "2021-07-05T17:46:34.123Z",
-					"updatedAt": "2021-07-05T17:46:34.123Z"
+					"updatedAt": "2021-07-05T17:46:34.123Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1d322f9b-01b0-4bfe-9c2e-9fe7bf7c7977",
@@ -4096,7 +4194,8 @@
 
 					"_lastChangedAt": 1625512034537,
 					"createdAt": "2021-07-05T19:07:14.536Z",
-					"updatedAt": "2021-07-05T19:07:14.536Z"
+					"updatedAt": "2021-07-05T19:07:14.536Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "38ea289c-94f5-44ed-a7a1-45dd7dc9aced",
@@ -4157,7 +4256,8 @@
 
 					"_lastChangedAt": 1625512034467,
 					"createdAt": "2021-07-05T19:07:14.467Z",
-					"updatedAt": "2021-07-05T19:07:14.467Z"
+					"updatedAt": "2021-07-05T19:07:14.467Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "af63cdbd-58b6-49de-b976-59fb1d054255",
@@ -4205,7 +4305,8 @@
 
 					"_lastChangedAt": 1625512034449,
 					"createdAt": "2021-07-05T19:07:14.448Z",
-					"updatedAt": "2021-07-05T19:07:14.448Z"
+					"updatedAt": "2021-07-05T19:07:14.448Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "fdb03ce5-4fb0-4dac-975f-51e13bfcad3e",
@@ -4247,7 +4348,8 @@
 
 					"_lastChangedAt": 1625512034515,
 					"createdAt": "2021-07-05T19:07:14.515Z",
-					"updatedAt": "2021-07-05T19:07:14.515Z"
+					"updatedAt": "2021-07-05T19:07:14.515Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9993e409-6645-4960-8701-f3ee3678e65d",
@@ -4282,7 +4384,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438278,
 					"createdAt": "2021-07-05T17:46:34.135Z",
-					"updatedAt": "2021-07-05T17:46:34.135Z"
+					"updatedAt": "2021-07-05T17:46:34.135Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "54ec7e20-0c42-4ba9-9863-51747d1e948a",
@@ -4317,7 +4420,8 @@
 
 					"_lastChangedAt": 1625512034426,
 					"createdAt": "2021-07-05T19:07:14.425Z",
-					"updatedAt": "2021-07-05T19:07:14.425Z"
+					"updatedAt": "2021-07-05T19:07:14.425Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4d28c5d7-adee-4c92-a5c0-20c20380f065",
@@ -4352,7 +4456,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438257,
 					"createdAt": "2021-07-05T17:49:22.521Z",
-					"updatedAt": "2021-07-05T17:49:22.521Z"
+					"updatedAt": "2021-07-05T17:49:22.521Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5143d247-ee3b-4648-8f0d-f8b1db6bcc43",
@@ -4387,7 +4492,8 @@
 
 					"_lastChangedAt": 1625512034447,
 					"createdAt": "2021-07-05T19:07:14.446Z",
-					"updatedAt": "2021-07-05T19:07:14.446Z"
+					"updatedAt": "2021-07-05T19:07:14.446Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9e1aa0d7-0681-4ae1-9f0d-d588fdb6cef8",
@@ -4422,7 +4528,8 @@
 
 					"_lastChangedAt": 1625512034564,
 					"createdAt": "2021-07-05T19:07:14.564Z",
-					"updatedAt": "2021-07-05T19:07:14.564Z"
+					"updatedAt": "2021-07-05T19:07:14.564Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0a16b494-1678-435a-aa55-9298184c75a9",
@@ -4457,7 +4564,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438272,
 					"createdAt": "2021-07-05T17:46:34.105Z",
-					"updatedAt": "2021-07-05T17:46:34.105Z"
+					"updatedAt": "2021-07-05T17:46:34.105Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c5b81bbb-b778-44a4-8c5a-8a4b2e477e2f",
@@ -4507,7 +4615,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438281,
 					"createdAt": "2021-07-05T17:46:34.083Z",
-					"updatedAt": "2021-07-05T17:46:34.083Z"
+					"updatedAt": "2021-07-05T17:46:34.083Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c6827e6b-3dd2-4933-aa4a-5ae836d257db",
@@ -4542,7 +4651,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438284,
 					"createdAt": "2021-07-05T17:48:51.311Z",
-					"updatedAt": "2021-07-05T17:48:51.311Z"
+					"updatedAt": "2021-07-05T17:48:51.311Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4e68d149-0c88-46bb-8cab-935aac04d843",
@@ -4583,7 +4693,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438267,
 					"createdAt": "2021-07-05T17:46:34.094Z",
-					"updatedAt": "2021-07-05T17:46:34.094Z"
+					"updatedAt": "2021-07-05T17:46:34.094Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4e5e2966-533e-4db0-a7c6-9e11135834cc",
@@ -4618,7 +4729,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438266,
 					"createdAt": "2021-07-05T17:46:34.061Z",
-					"updatedAt": "2021-07-05T17:46:34.061Z"
+					"updatedAt": "2021-07-05T17:46:34.061Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0aff3de9-1e67-4faa-9adf-75cf54f67412",
@@ -4653,7 +4765,8 @@
 
 					"_lastChangedAt": 1625512034426,
 					"createdAt": "2021-07-05T19:07:14.425Z",
-					"updatedAt": "2021-07-05T19:07:14.425Z"
+					"updatedAt": "2021-07-05T19:07:14.425Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d9ccc112-ca8c-45d8-9f7a-72ffb095c667",
@@ -4688,7 +4801,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438279,
 					"createdAt": "2021-07-05T16:07:46.703Z",
-					"updatedAt": "2021-07-05T16:07:46.703Z"
+					"updatedAt": "2021-07-05T16:07:46.703Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "71a21add-f6a3-4ff0-b6a6-c88050302a02",
@@ -4745,7 +4859,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438266,
 					"createdAt": "2021-07-05T17:48:51.310Z",
-					"updatedAt": "2021-07-05T17:48:51.310Z"
+					"updatedAt": "2021-07-05T17:48:51.310Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c5f07922-ae61-40d3-8b89-18628a8f4ad4",
@@ -4780,7 +4895,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438274,
 					"createdAt": "2021-07-05T17:46:34.111Z",
-					"updatedAt": "2021-07-05T17:46:34.111Z"
+					"updatedAt": "2021-07-05T17:46:34.111Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a20188f4-211c-42bd-a5d0-6e54bf494e28",
@@ -4815,7 +4931,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438265,
 					"createdAt": "2021-07-05T16:07:46.709Z",
-					"updatedAt": "2021-07-05T16:07:46.709Z"
+					"updatedAt": "2021-07-05T16:07:46.709Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "99c2c710-3988-4540-8bd4-bdf2714ecf50",
@@ -4859,7 +4976,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438285,
 					"createdAt": "2021-07-05T17:46:34.064Z",
-					"updatedAt": "2021-07-05T17:46:34.064Z"
+					"updatedAt": "2021-07-05T17:46:34.064Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "42805f4d-0453-40cd-b0ce-00a00bee636d",
@@ -4916,7 +5034,8 @@
 
 					"_lastChangedAt": 1625512034442,
 					"createdAt": "2021-07-05T19:07:14.442Z",
-					"updatedAt": "2021-07-05T19:07:14.442Z"
+					"updatedAt": "2021-07-05T19:07:14.442Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5b8ad01a-d6cc-407a-8bc0-5613f1f908ae",
@@ -4963,7 +5082,8 @@
 
 					"_lastChangedAt": 1625512034495,
 					"createdAt": "2021-07-05T19:07:14.495Z",
-					"updatedAt": "2021-07-05T19:07:14.495Z"
+					"updatedAt": "2021-07-05T19:07:14.495Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c253fc87-ff88-4eb3-b1ce-a19768e0c5c0",
@@ -4998,7 +5118,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438267,
 					"createdAt": "2021-07-05T17:46:34.122Z",
-					"updatedAt": "2021-07-05T17:46:34.122Z"
+					"updatedAt": "2021-07-05T17:46:34.122Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5db5e4c1-5197-4e0b-a085-723b06a1369f",
@@ -5044,7 +5165,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438291,
 					"createdAt": "2021-07-05T17:49:22.474Z",
-					"updatedAt": "2021-07-05T17:49:22.474Z"
+					"updatedAt": "2021-07-05T17:49:22.474Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "fec4dc7d-14c3-48e0-81b8-62e191cf7f92",
@@ -5098,7 +5220,8 @@
 
 					"_lastChangedAt": 1625512034467,
 					"createdAt": "2021-07-05T19:07:14.467Z",
-					"updatedAt": "2021-07-05T19:07:14.467Z"
+					"updatedAt": "2021-07-05T19:07:14.467Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ead79bf5-cd99-4a0e-94be-ebe81bfaaf1f",
@@ -5144,7 +5267,8 @@
 
 					"_lastChangedAt": 1625512034443,
 					"createdAt": "2021-07-05T19:07:14.443Z",
-					"updatedAt": "2021-07-05T19:07:14.443Z"
+					"updatedAt": "2021-07-05T19:07:14.443Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4e287213-96ea-468e-8aab-da97e91888cf",
@@ -5187,7 +5311,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438296,
 					"createdAt": "2021-07-05T17:46:34.094Z",
-					"updatedAt": "2021-07-05T17:46:34.094Z"
+					"updatedAt": "2021-07-05T17:46:34.094Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a826e0e8-9df7-46de-ac1e-b13bb846a498",
@@ -5231,7 +5356,8 @@
 
 					"_lastChangedAt": 1625512034426,
 					"createdAt": "2021-07-05T19:07:14.425Z",
-					"updatedAt": "2021-07-05T19:07:14.425Z"
+					"updatedAt": "2021-07-05T19:07:14.425Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "48a8cfa9-47c3-4b2a-9f27-eeec32ef9d8c",
@@ -5266,7 +5392,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438265,
 					"createdAt": "2021-07-05T16:07:46.625Z",
-					"updatedAt": "2021-07-05T16:07:46.625Z"
+					"updatedAt": "2021-07-05T16:07:46.625Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "52eb6c49-6146-48f3-aea8-4c5cafa9c722",
@@ -5301,7 +5428,8 @@
 
 					"_lastChangedAt": 1625512034580,
 					"createdAt": "2021-07-05T19:07:14.579Z",
-					"updatedAt": "2021-07-05T19:07:14.579Z"
+					"updatedAt": "2021-07-05T19:07:14.579Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d7525ae4-24d7-4595-9f39-57f5aa32d04b",
@@ -5336,7 +5464,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438266,
 					"createdAt": "2021-07-05T16:07:46.543Z",
-					"updatedAt": "2021-07-05T16:07:46.543Z"
+					"updatedAt": "2021-07-05T16:07:46.543Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "01d3c192-8065-45da-932f-ec2ce61c92cb",
@@ -5371,7 +5500,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438265,
 					"createdAt": "2021-07-05T17:46:34.116Z",
-					"updatedAt": "2021-07-05T17:46:34.116Z"
+					"updatedAt": "2021-07-05T17:46:34.116Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5e126448-ab43-4a6f-b5f9-445ca759fa9d",
@@ -5406,7 +5536,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438266,
 					"createdAt": "2021-07-05T17:46:34.100Z",
-					"updatedAt": "2021-07-05T17:46:34.100Z"
+					"updatedAt": "2021-07-05T17:46:34.100Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5880c37f-da78-4f59-87f5-c0210ae61e79",
@@ -5441,7 +5572,8 @@
 
 					"_lastChangedAt": 1625512034467,
 					"createdAt": "2021-07-05T19:07:14.467Z",
-					"updatedAt": "2021-07-05T19:07:14.467Z"
+					"updatedAt": "2021-07-05T19:07:14.467Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e5aae6e0-4955-46a4-92cf-17556fcc4e7b",
@@ -5476,7 +5608,8 @@
 
 					"_lastChangedAt": 1625512034578,
 					"createdAt": "2021-07-05T19:07:14.578Z",
-					"updatedAt": "2021-07-05T19:07:14.578Z"
+					"updatedAt": "2021-07-05T19:07:14.578Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "88da43b5-7ebf-49dc-8024-782af2b7fa5f",
@@ -5511,7 +5644,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438290,
 					"createdAt": "2021-07-05T17:48:51.326Z",
-					"updatedAt": "2021-07-05T17:48:51.326Z"
+					"updatedAt": "2021-07-05T17:48:51.326Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b045a113-9bc5-42da-a65e-049adbc8f4bb",
@@ -5546,7 +5680,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438281,
 					"createdAt": "2021-07-05T17:46:34.109Z",
-					"updatedAt": "2021-07-05T17:46:34.109Z"
+					"updatedAt": "2021-07-05T17:46:34.109Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "7f34aa8c-e900-4a58-a029-d94ba973ff01",
@@ -5581,7 +5716,8 @@
 
 					"_lastChangedAt": 1625512034464,
 					"createdAt": "2021-07-05T19:07:14.463Z",
-					"updatedAt": "2021-07-05T19:07:14.463Z"
+					"updatedAt": "2021-07-05T19:07:14.463Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "375e80c7-db43-4ffa-9202-5cd2b04911b5",
@@ -5616,7 +5752,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438311,
 					"createdAt": "2021-07-05T16:07:46.683Z",
-					"updatedAt": "2021-07-05T16:07:46.683Z"
+					"updatedAt": "2021-07-05T16:07:46.683Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "523c7006-65c8-4c9c-9351-2759c262361a",
@@ -5678,7 +5815,8 @@
 
 					"_lastChangedAt": 1625512034454,
 					"createdAt": "2021-07-05T19:07:14.453Z",
-					"updatedAt": "2021-07-05T19:07:14.453Z"
+					"updatedAt": "2021-07-05T19:07:14.453Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8a9a6db8-e438-4455-a035-9d6a1196e7d6",
@@ -5713,7 +5851,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438284,
 					"createdAt": "2021-07-05T17:49:22.504Z",
-					"updatedAt": "2021-07-05T17:49:22.504Z"
+					"updatedAt": "2021-07-05T17:49:22.504Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8ad5cb9e-4a0b-42e6-9914-e8c91db117af",
@@ -5748,7 +5887,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438277,
 					"createdAt": "2021-07-05T16:07:46.711Z",
-					"updatedAt": "2021-07-05T16:07:46.711Z"
+					"updatedAt": "2021-07-05T16:07:46.711Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a04a2142-b5d5-4be6-88b5-d7df70d65997",
@@ -5783,7 +5923,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438276,
 					"createdAt": "2021-07-05T17:46:34.158Z",
-					"updatedAt": "2021-07-05T17:46:34.158Z"
+					"updatedAt": "2021-07-05T17:46:34.158Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "179d0f18-c7b5-43f1-84b2-47fc632ba945",
@@ -5818,7 +5959,8 @@
 
 					"_lastChangedAt": 1625512034572,
 					"createdAt": "2021-07-05T19:07:14.572Z",
-					"updatedAt": "2021-07-05T19:07:14.572Z"
+					"updatedAt": "2021-07-05T19:07:14.572Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "044de3cc-999b-4281-b833-794c14e2e942",
@@ -5853,7 +5995,8 @@
 
 					"_lastChangedAt": 1625512034526,
 					"createdAt": "2021-07-05T19:07:14.526Z",
-					"updatedAt": "2021-07-05T19:07:14.526Z"
+					"updatedAt": "2021-07-05T19:07:14.526Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "df8540d1-457a-4d66-8ddc-0661c0090753",
@@ -5888,7 +6031,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438288,
 					"createdAt": "2021-07-05T17:49:22.504Z",
-					"updatedAt": "2021-07-05T17:49:22.504Z"
+					"updatedAt": "2021-07-05T17:49:22.504Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6e7c2d97-9e37-45ce-8957-14df704b165b",
@@ -5923,7 +6067,8 @@
 
 					"_lastChangedAt": 1625512034580,
 					"createdAt": "2021-07-05T19:07:14.579Z",
-					"updatedAt": "2021-07-05T19:07:14.579Z"
+					"updatedAt": "2021-07-05T19:07:14.579Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d2a7323d-d370-41ff-a898-5f9f63a0fed2",
@@ -5965,7 +6110,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438284,
 					"createdAt": "2021-07-05T17:49:22.450Z",
-					"updatedAt": "2021-07-05T17:49:22.450Z"
+					"updatedAt": "2021-07-05T17:49:22.450Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8c397160-6aed-4128-9d3e-f250ee84be49",
@@ -6000,7 +6146,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438266,
 					"createdAt": "2021-07-05T17:46:34.129Z",
-					"updatedAt": "2021-07-05T17:46:34.129Z"
+					"updatedAt": "2021-07-05T17:46:34.129Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "51e3490f-b114-4230-a725-96a45295600c",
@@ -6035,7 +6182,8 @@
 
 					"_lastChangedAt": 1625512034564,
 					"createdAt": "2021-07-05T19:07:14.563Z",
-					"updatedAt": "2021-07-05T19:07:14.563Z"
+					"updatedAt": "2021-07-05T19:07:14.563Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b76ce3ea-c984-4b9e-8d1a-3745243d8941",
@@ -6101,7 +6249,8 @@
 
 					"_lastChangedAt": 1625512034435,
 					"createdAt": "2021-07-05T19:07:14.435Z",
-					"updatedAt": "2021-07-05T19:07:14.435Z"
+					"updatedAt": "2021-07-05T19:07:14.435Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b5960655-cc90-4196-9235-b85caad5f527",
@@ -6136,7 +6285,8 @@
 
 					"_lastChangedAt": 1625512034567,
 					"createdAt": "2021-07-05T19:07:14.567Z",
-					"updatedAt": "2021-07-05T19:07:14.567Z"
+					"updatedAt": "2021-07-05T19:07:14.567Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5efea18b-310d-4f48-96e0-672c9547d473",
@@ -6192,7 +6342,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438283,
 					"createdAt": "2021-07-05T17:46:34.089Z",
-					"updatedAt": "2021-07-05T17:46:34.089Z"
+					"updatedAt": "2021-07-05T17:46:34.089Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b741e9fa-678c-4827-92d8-71bc77c5f690",
@@ -6234,7 +6385,8 @@
 
 					"_lastChangedAt": 1625512034571,
 					"createdAt": "2021-07-05T19:07:14.571Z",
-					"updatedAt": "2021-07-05T19:07:14.571Z"
+					"updatedAt": "2021-07-05T19:07:14.571Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "323da64b-b3d8-4921-a243-a4c57baddda8",
@@ -6269,7 +6421,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438265,
 					"createdAt": "2021-07-05T17:49:22.523Z",
-					"updatedAt": "2021-07-05T17:49:22.523Z"
+					"updatedAt": "2021-07-05T17:49:22.523Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "7c572c7f-1028-4840-828e-72a54432f911",
@@ -6304,7 +6457,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438265,
 					"createdAt": "2021-07-05T17:48:51.322Z",
-					"updatedAt": "2021-07-05T17:48:51.322Z"
+					"updatedAt": "2021-07-05T17:48:51.322Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "508f6341-551f-42ba-90d5-b716878e56d4",
@@ -6370,7 +6524,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438298,
 					"createdAt": "2021-07-05T17:46:34.135Z",
-					"updatedAt": "2021-07-05T17:46:34.135Z"
+					"updatedAt": "2021-07-05T17:46:34.135Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "25e9fd53-1a35-4e36-94aa-321b97452ebe",
@@ -6405,7 +6560,8 @@
 
 					"_lastChangedAt": 1625512034446,
 					"createdAt": "2021-07-05T19:07:14.446Z",
-					"updatedAt": "2021-07-05T19:07:14.446Z"
+					"updatedAt": "2021-07-05T19:07:14.446Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1d95c6e7-5e4f-47ac-96b3-457b1829d1d5",
@@ -6440,7 +6596,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438276,
 					"createdAt": "2021-07-05T16:07:46.706Z",
-					"updatedAt": "2021-07-05T16:07:46.706Z"
+					"updatedAt": "2021-07-05T16:07:46.706Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c2247197-184b-44ff-b3b0-669262dbb145",
@@ -6475,7 +6632,8 @@
 
 					"_lastChangedAt": 1625512034579,
 					"createdAt": "2021-07-05T19:07:14.578Z",
-					"updatedAt": "2021-07-05T19:07:14.578Z"
+					"updatedAt": "2021-07-05T19:07:14.578Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "747f4368-04e1-4fb2-bfc1-621cecff7306",
@@ -6530,7 +6688,8 @@
 
 					"_lastChangedAt": 1625512034440,
 					"createdAt": "2021-07-05T19:07:14.440Z",
-					"updatedAt": "2021-07-05T19:07:14.440Z"
+					"updatedAt": "2021-07-05T19:07:14.440Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "dc74cdce-72e5-46b4-b40c-1b9d41a844d9",
@@ -6565,7 +6724,8 @@
 
 					"_lastChangedAt": 1625512034523,
 					"createdAt": "2021-07-05T19:07:14.522Z",
-					"updatedAt": "2021-07-05T19:07:14.522Z"
+					"updatedAt": "2021-07-05T19:07:14.522Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1837cfca-8766-405e-8fe4-8e79c005b7df",
@@ -6600,7 +6760,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438266,
 					"createdAt": "2021-07-05T17:49:22.508Z",
-					"updatedAt": "2021-07-05T17:49:22.508Z"
+					"updatedAt": "2021-07-05T17:49:22.508Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8ddb83d2-3e6e-49ed-adc0-29e61d1e6298",
@@ -6635,7 +6796,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438289,
 					"createdAt": "2021-07-05T17:46:34.078Z",
-					"updatedAt": "2021-07-05T17:46:34.078Z"
+					"updatedAt": "2021-07-05T17:46:34.078Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "37ea28b0-9724-4616-af63-df83791ea3d2",
@@ -6670,7 +6832,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438265,
 					"createdAt": "2021-07-05T16:07:46.713Z",
-					"updatedAt": "2021-07-05T16:07:46.713Z"
+					"updatedAt": "2021-07-05T16:07:46.713Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "070579cb-a42f-4607-8f7a-301bf000dd47",
@@ -6717,7 +6880,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438261,
 					"createdAt": "2021-07-05T17:46:34.061Z",
-					"updatedAt": "2021-07-05T17:46:34.061Z"
+					"updatedAt": "2021-07-05T17:46:34.061Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "23f653b9-6931-4969-a19e-4972f7e8372b",
@@ -6752,7 +6916,8 @@
 
 					"_lastChangedAt": 1625512034517,
 					"createdAt": "2021-07-05T19:07:14.517Z",
-					"updatedAt": "2021-07-05T19:07:14.517Z"
+					"updatedAt": "2021-07-05T19:07:14.517Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e61ddc35-8ca7-4933-a024-02a215c485eb",
@@ -6794,7 +6959,8 @@
 
 					"_lastChangedAt": 1625512034472,
 					"createdAt": "2021-07-05T19:07:14.471Z",
-					"updatedAt": "2021-07-05T19:07:14.471Z"
+					"updatedAt": "2021-07-05T19:07:14.471Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e7b45b27-2323-46c6-b231-58cac4366497",
@@ -6829,7 +6995,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438240,
 					"createdAt": "2021-07-05T16:05:00.134Z",
-					"updatedAt": "2021-07-05T16:05:00.134Z"
+					"updatedAt": "2021-07-05T16:05:00.134Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4325e2c8-5e15-4dcf-a732-f46b2f819b26",
@@ -6864,7 +7031,8 @@
 
 					"_lastChangedAt": 1625512034502,
 					"createdAt": "2021-07-05T19:07:14.501Z",
-					"updatedAt": "2021-07-05T19:07:14.501Z"
+					"updatedAt": "2021-07-05T19:07:14.501Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d469d933-beee-49f4-8a5b-941d52c01f69",
@@ -6899,7 +7067,8 @@
 
 					"_lastChangedAt": 1625512034440,
 					"createdAt": "2021-07-05T19:07:14.440Z",
-					"updatedAt": "2021-07-05T19:07:14.440Z"
+					"updatedAt": "2021-07-05T19:07:14.440Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "1eb70860-c826-41d7-a532-61ede346b2a2",
@@ -6940,7 +7109,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438242,
 					"createdAt": "2021-07-05T17:46:34.096Z",
-					"updatedAt": "2021-07-05T17:46:34.096Z"
+					"updatedAt": "2021-07-05T17:46:34.096Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "325a048d-1823-4e91-8f08-f7de95096dde",
@@ -7004,7 +7174,8 @@
 
 					"_lastChangedAt": 1625512034454,
 					"createdAt": "2021-07-05T19:07:14.453Z",
-					"updatedAt": "2021-07-05T19:07:14.453Z"
+					"updatedAt": "2021-07-05T19:07:14.453Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8592f79e-6790-4f49-9a15-9b93520d993d",
@@ -7039,7 +7210,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438224,
 					"createdAt": "2021-07-05T17:46:34.128Z",
-					"updatedAt": "2021-07-05T17:46:34.128Z"
+					"updatedAt": "2021-07-05T17:46:34.128Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4fa16745-5362-4290-8670-a33f8b2b1708",
@@ -7074,7 +7246,8 @@
 
 					"_lastChangedAt": 1625512034614,
 					"createdAt": "2021-07-05T19:07:14.614Z",
-					"updatedAt": "2021-07-05T19:07:14.614Z"
+					"updatedAt": "2021-07-05T19:07:14.614Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4ac827fb-4bab-42af-bf52-d39ba91a449c",
@@ -7109,7 +7282,8 @@
 
 					"_lastChangedAt": 1625512034531,
 					"createdAt": "2021-07-05T19:07:14.530Z",
-					"updatedAt": "2021-07-05T19:07:14.530Z"
+					"updatedAt": "2021-07-05T19:07:14.530Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "df809cb0-109e-4912-852a-5c24ff1a0420",
@@ -7144,7 +7318,8 @@
 
 					"_lastChangedAt": 1625512034516,
 					"createdAt": "2021-07-05T19:07:14.516Z",
-					"updatedAt": "2021-07-05T19:07:14.516Z"
+					"updatedAt": "2021-07-05T19:07:14.516Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2187deb1-d069-4a32-8ce1-43c415e48a72",
@@ -7179,7 +7354,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438292,
 					"createdAt": "2021-07-05T16:07:46.745Z",
-					"updatedAt": "2021-07-05T16:07:46.745Z"
+					"updatedAt": "2021-07-05T16:07:46.745Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a5ddbb67-726e-440e-8125-5ed9c117e4b2",
@@ -7214,7 +7390,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438261,
 					"createdAt": "2021-07-05T16:07:46.726Z",
-					"updatedAt": "2021-07-05T16:07:46.726Z"
+					"updatedAt": "2021-07-05T16:07:46.726Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "cb592a25-d9eb-44bd-874a-be8e2cfb842b",
@@ -7249,7 +7426,8 @@
 
 					"_lastChangedAt": 1625512034506,
 					"createdAt": "2021-07-05T19:07:14.506Z",
-					"updatedAt": "2021-07-05T19:07:14.506Z"
+					"updatedAt": "2021-07-05T19:07:14.506Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "abe90d31-c566-4799-80b7-084fcd5abf38",
@@ -7309,7 +7487,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438251,
 					"createdAt": "2021-07-05T17:48:51.309Z",
-					"updatedAt": "2021-07-05T17:48:51.309Z"
+					"updatedAt": "2021-07-05T17:48:51.309Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "56cf505b-8fd6-41d4-9237-57f0087ec591",
@@ -7344,7 +7523,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438289,
 					"createdAt": "2021-07-05T17:48:51.314Z",
-					"updatedAt": "2021-07-05T17:48:51.314Z"
+					"updatedAt": "2021-07-05T17:48:51.314Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c628fa79-4bb0-44ea-a847-db7e8ea619e1",
@@ -7379,7 +7559,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438274,
 					"createdAt": "2021-07-05T17:46:34.145Z",
-					"updatedAt": "2021-07-05T17:46:34.145Z"
+					"updatedAt": "2021-07-05T17:46:34.145Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f9228c59-8f8b-4c21-9049-d19ff3181473",
@@ -7414,7 +7595,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438270,
 					"createdAt": "2021-07-05T16:07:46.707Z",
-					"updatedAt": "2021-07-05T16:07:46.707Z"
+					"updatedAt": "2021-07-05T16:07:46.707Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4c336803-00fa-41c4-a373-4d8fc6b6581b",
@@ -7449,7 +7631,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438246,
 					"createdAt": "2021-07-05T16:07:46.578Z",
-					"updatedAt": "2021-07-05T16:07:46.578Z"
+					"updatedAt": "2021-07-05T16:07:46.578Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b1f62333-6605-4676-9818-49a609c46379",
@@ -7484,7 +7667,8 @@
 
 					"_lastChangedAt": 1625512034573,
 					"createdAt": "2021-07-05T19:07:14.573Z",
-					"updatedAt": "2021-07-05T19:07:14.573Z"
+					"updatedAt": "2021-07-05T19:07:14.573Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "245e974b-1e93-4dca-aa18-2586b2cc4f78",
@@ -7548,7 +7732,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438244,
 					"createdAt": "2021-07-05T17:48:51.340Z",
-					"updatedAt": "2021-07-05T17:48:51.340Z"
+					"updatedAt": "2021-07-05T17:48:51.340Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e6ea09dd-4f7f-4052-b088-8740f7732f3b",
@@ -7583,7 +7768,8 @@
 
 					"_lastChangedAt": 1625512034471,
 					"createdAt": "2021-07-05T19:07:14.470Z",
-					"updatedAt": "2021-07-05T19:07:14.470Z"
+					"updatedAt": "2021-07-05T19:07:14.470Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0b61aa38-0a31-4dc8-87c4-a2672fa1a949",
@@ -7618,7 +7804,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438241,
 					"createdAt": "2021-07-05T17:49:22.519Z",
-					"updatedAt": "2021-07-05T17:49:22.519Z"
+					"updatedAt": "2021-07-05T17:49:22.519Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "334e8c74-94b7-4ed0-bfd1-64cd8f5047c7",
@@ -7653,7 +7840,8 @@
 
 					"_lastChangedAt": 1625512034455,
 					"createdAt": "2021-07-05T19:07:14.455Z",
-					"updatedAt": "2021-07-05T19:07:14.455Z"
+					"updatedAt": "2021-07-05T19:07:14.455Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a2109da7-bc14-4686-8b6c-b219be92859f",
@@ -7698,7 +7886,8 @@
 
 					"_lastChangedAt": 1625512034455,
 					"createdAt": "2021-07-05T19:07:14.455Z",
-					"updatedAt": "2021-07-05T19:07:14.455Z"
+					"updatedAt": "2021-07-05T19:07:14.455Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b0e67fe9-9158-434b-9750-ea1480875fcb",
@@ -7751,7 +7940,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438285,
 					"createdAt": "2021-07-05T17:46:34.077Z",
-					"updatedAt": "2021-07-05T17:46:34.077Z"
+					"updatedAt": "2021-07-05T17:46:34.077Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8a8a7352-5111-482a-9ac8-c4c06f17d33b",
@@ -7786,7 +7976,8 @@
 
 					"_lastChangedAt": 1625512034427,
 					"createdAt": "2021-07-05T19:07:14.427Z",
-					"updatedAt": "2021-07-05T19:07:14.427Z"
+					"updatedAt": "2021-07-05T19:07:14.427Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "ef0fdcfc-f374-4a3c-aaf6-236ba28ebf71",
@@ -7841,7 +8032,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438274,
 					"createdAt": "2021-07-05T17:46:34.072Z",
-					"updatedAt": "2021-07-05T17:46:34.072Z"
+					"updatedAt": "2021-07-05T17:46:34.072Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "eb786edb-a0f2-4049-96cd-be8c66fd4363",
@@ -7876,7 +8068,8 @@
 
 					"_lastChangedAt": 1625512034573,
 					"createdAt": "2021-07-05T19:07:14.572Z",
-					"updatedAt": "2021-07-05T19:07:14.572Z"
+					"updatedAt": "2021-07-05T19:07:14.572Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "cb13bd4d-cbef-4938-afbf-af184cd849ec",
@@ -7917,7 +8110,8 @@
 
 					"_lastChangedAt": 1625512034478,
 					"createdAt": "2021-07-05T19:07:14.477Z",
-					"updatedAt": "2021-07-05T19:07:14.477Z"
+					"updatedAt": "2021-07-05T19:07:14.477Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "86626586-cf17-46a8-aa2e-f1a62aa0c7f9",
@@ -7960,7 +8154,8 @@
 
 					"_lastChangedAt": 1625512034429,
 					"createdAt": "2021-07-05T19:07:14.429Z",
-					"updatedAt": "2021-07-05T19:07:14.429Z"
+					"updatedAt": "2021-07-05T19:07:14.429Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b020367d-415a-4944-9abf-add1c4935447",
@@ -8009,7 +8204,8 @@
 
 					"_lastChangedAt": 1625512034459,
 					"createdAt": "2021-07-05T19:07:14.459Z",
-					"updatedAt": "2021-07-05T19:07:14.459Z"
+					"updatedAt": "2021-07-05T19:07:14.459Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2fa4daa8-5b58-4946-8f65-4502b462a6fb",
@@ -8044,7 +8240,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438286,
 					"createdAt": "2021-07-05T16:07:46.664Z",
-					"updatedAt": "2021-07-05T16:07:46.664Z"
+					"updatedAt": "2021-07-05T16:07:46.664Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a6a054e6-8e32-4b5c-914a-f79d651d7576",
@@ -8079,7 +8276,8 @@
 
 					"_lastChangedAt": 1625512034509,
 					"createdAt": "2021-07-05T19:07:14.509Z",
-					"updatedAt": "2021-07-05T19:07:14.509Z"
+					"updatedAt": "2021-07-05T19:07:14.509Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "90084cfc-559e-47b5-872a-d1259a679a45",
@@ -8128,7 +8326,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438273,
 					"createdAt": "2021-07-05T17:46:34.060Z",
-					"updatedAt": "2021-07-05T17:46:34.060Z"
+					"updatedAt": "2021-07-05T17:46:34.060Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "48bf26a5-8bae-46f3-80fe-8a8bba16c27b",
@@ -8170,7 +8369,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438315,
 					"createdAt": "2021-07-05T17:46:34.114Z",
-					"updatedAt": "2021-07-05T17:46:34.114Z"
+					"updatedAt": "2021-07-05T17:46:34.114Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0e7af3ff-1375-47e1-9ffc-af3f8a075275",
@@ -8229,7 +8429,8 @@
 
 					"_lastChangedAt": 1625512034465,
 					"createdAt": "2021-07-05T19:07:14.465Z",
-					"updatedAt": "2021-07-05T19:07:14.465Z"
+					"updatedAt": "2021-07-05T19:07:14.465Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e0ad5071-798d-4ca2-a2a9-7aacdb939e3a",
@@ -8273,7 +8474,8 @@
 
 					"_lastChangedAt": 1625512034472,
 					"createdAt": "2021-07-05T19:07:14.472Z",
-					"updatedAt": "2021-07-05T19:07:14.472Z"
+					"updatedAt": "2021-07-05T19:07:14.472Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "83ff3e36-1f4f-4838-99e5-474c529d8ce9",
@@ -8339,7 +8541,8 @@
 
 					"_lastChangedAt": 1625512034427,
 					"createdAt": "2021-07-05T19:07:14.427Z",
-					"updatedAt": "2021-07-05T19:07:14.427Z"
+					"updatedAt": "2021-07-05T19:07:14.427Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0229ab4a-a630-488f-ad8c-d27c830cbbe5",
@@ -8380,7 +8583,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438260,
 					"createdAt": "2021-07-05T17:46:34.110Z",
-					"updatedAt": "2021-07-05T17:46:34.110Z"
+					"updatedAt": "2021-07-05T17:46:34.110Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b2d1a39f-e505-48aa-9cf4-7ca8453b4efc",
@@ -8415,7 +8619,8 @@
 
 					"_lastChangedAt": 1625512034437,
 					"createdAt": "2021-07-05T19:07:14.436Z",
-					"updatedAt": "2021-07-05T19:07:14.436Z"
+					"updatedAt": "2021-07-05T19:07:14.436Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "079a18a4-630f-41cd-82d9-d49eaf568f12",
@@ -8450,7 +8655,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438253,
 					"createdAt": "2021-07-05T16:07:46.696Z",
-					"updatedAt": "2021-07-05T16:07:46.696Z"
+					"updatedAt": "2021-07-05T16:07:46.696Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "059badbe-9768-440a-b1de-946648c0fb65",
@@ -8493,7 +8699,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438270,
 					"createdAt": "2021-07-05T17:46:34.103Z",
-					"updatedAt": "2021-07-05T17:46:34.103Z"
+					"updatedAt": "2021-07-05T17:46:34.103Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b711da5f-20a4-4a66-a5af-8d362ae9dd49",
@@ -8528,7 +8735,8 @@
 
 					"_lastChangedAt": 1625512034588,
 					"createdAt": "2021-07-05T19:07:14.587Z",
-					"updatedAt": "2021-07-05T19:07:14.587Z"
+					"updatedAt": "2021-07-05T19:07:14.587Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b32682fa-6173-4d81-9f94-28ded9dcfd47",
@@ -8563,7 +8771,8 @@
 
 					"_lastChangedAt": 1625512034461,
 					"createdAt": "2021-07-05T19:07:14.460Z",
-					"updatedAt": "2021-07-05T19:07:14.460Z"
+					"updatedAt": "2021-07-05T19:07:14.460Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5777fdff-7d59-4e93-9a6e-2cc24b604142",
@@ -8598,7 +8807,8 @@
 
 					"_lastChangedAt": 1625512034498,
 					"createdAt": "2021-07-05T19:07:14.497Z",
-					"updatedAt": "2021-07-05T19:07:14.497Z"
+					"updatedAt": "2021-07-05T19:07:14.497Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e5b1a908-3714-4508-978b-9bd8790003ef",
@@ -8633,7 +8843,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438278,
 					"createdAt": "2021-07-05T16:07:46.691Z",
-					"updatedAt": "2021-07-05T16:07:46.691Z"
+					"updatedAt": "2021-07-05T16:07:46.691Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "edf37950-ff3d-4419-ba84-fb303547c084",
@@ -8681,7 +8892,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438267,
 					"createdAt": "2021-07-05T17:46:34.068Z",
-					"updatedAt": "2021-07-05T17:46:34.068Z"
+					"updatedAt": "2021-07-05T17:46:34.068Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9ae97dda-d641-4d06-b1d7-d239fd85ebcc",
@@ -8723,7 +8935,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438362,
 					"createdAt": "2021-07-05T16:07:46.506Z",
-					"updatedAt": "2021-07-05T16:07:46.506Z"
+					"updatedAt": "2021-07-05T16:07:46.506Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "94459850-48e7-4eda-80ca-ee7554fb385e",
@@ -8758,7 +8971,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438338,
 					"createdAt": "2021-07-05T17:46:34.126Z",
-					"updatedAt": "2021-07-05T17:46:34.126Z"
+					"updatedAt": "2021-07-05T17:46:34.126Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "fc68171a-fdee-40c6-b122-7164d586d3ae",
@@ -8793,7 +9007,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438340,
 					"createdAt": "2021-07-05T16:07:46.691Z",
-					"updatedAt": "2021-07-05T16:07:46.691Z"
+					"updatedAt": "2021-07-05T16:07:46.691Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "7a24f268-342d-4cd1-a8d5-7648bdeb0f00",
@@ -8835,7 +9050,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438363,
 					"createdAt": "2021-07-05T17:46:34.056Z",
-					"updatedAt": "2021-07-05T17:46:34.056Z"
+					"updatedAt": "2021-07-05T17:46:34.056Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "a65b2984-f9a1-403c-b62d-a348f2478087",
@@ -8870,7 +9086,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438335,
 					"createdAt": "2021-07-05T17:46:34.140Z",
-					"updatedAt": "2021-07-05T17:46:34.140Z"
+					"updatedAt": "2021-07-05T17:46:34.140Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "90b223ff-8fc1-4398-8302-b12bdfeee8cd",
@@ -8905,7 +9122,8 @@
 
 					"_lastChangedAt": 1625512034594,
 					"createdAt": "2021-07-05T19:07:14.594Z",
-					"updatedAt": "2021-07-05T19:07:14.594Z"
+					"updatedAt": "2021-07-05T19:07:14.594Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6d0dfb76-6a6a-41b7-8ccd-262fc78b8306",
@@ -8940,7 +9158,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438363,
 					"createdAt": "2021-07-05T16:07:46.696Z",
-					"updatedAt": "2021-07-05T16:07:46.696Z"
+					"updatedAt": "2021-07-05T16:07:46.696Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "70177e8a-02a0-41a9-852f-b7bcce8c1806",
@@ -8987,7 +9206,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438339,
 					"createdAt": "2021-07-05T17:46:34.079Z",
-					"updatedAt": "2021-07-05T17:46:34.079Z"
+					"updatedAt": "2021-07-05T17:46:34.079Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "100d3232-9758-402f-b757-3af53ff6b995",
@@ -9022,7 +9242,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438336,
 					"createdAt": "2021-07-05T17:46:34.095Z",
-					"updatedAt": "2021-07-05T17:46:34.095Z"
+					"updatedAt": "2021-07-05T17:46:34.095Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2e27e0c5-9c13-4090-8e02-5e9cdd8a1ab9",
@@ -9057,7 +9278,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438362,
 					"createdAt": "2021-07-05T16:07:46.680Z",
-					"updatedAt": "2021-07-05T16:07:46.680Z"
+					"updatedAt": "2021-07-05T16:07:46.680Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "60222c37-69d3-4676-8d16-54309902ffb1",
@@ -9092,7 +9314,8 @@
 
 					"_lastChangedAt": 1625512034600,
 					"createdAt": "2021-07-05T19:07:14.599Z",
-					"updatedAt": "2021-07-05T19:07:14.599Z"
+					"updatedAt": "2021-07-05T19:07:14.599Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c97aa6d5-fe29-45a6-b316-94d58945056d",
@@ -9150,7 +9373,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438363,
 					"createdAt": "2021-07-05T17:48:51.313Z",
-					"updatedAt": "2021-07-05T17:48:51.313Z"
+					"updatedAt": "2021-07-05T17:48:51.313Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "efcc6006-f0d7-4960-8026-f90413caab40",
@@ -9185,7 +9409,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438281,
 					"createdAt": "2021-07-05T16:07:46.703Z",
-					"updatedAt": "2021-07-05T16:07:46.703Z"
+					"updatedAt": "2021-07-05T16:07:46.703Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "29a14434-74d8-4c67-904e-4fc363085e13",
@@ -9226,7 +9451,8 @@
 
 					"_lastChangedAt": 1625512034536,
 					"createdAt": "2021-07-05T19:07:14.535Z",
-					"updatedAt": "2021-07-05T19:07:14.535Z"
+					"updatedAt": "2021-07-05T19:07:14.535Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "cfb30642-6fbc-47bd-a1cc-cbf29cabfa52",
@@ -9286,7 +9512,8 @@
 
 					"_lastChangedAt": 1625512034433,
 					"createdAt": "2021-07-05T19:07:14.433Z",
-					"updatedAt": "2021-07-05T19:07:14.433Z"
+					"updatedAt": "2021-07-05T19:07:14.433Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f6097a28-c4dc-4a85-a6f1-f7368212ab14",
@@ -9321,7 +9548,8 @@
 
 					"_lastChangedAt": 1625512034613,
 					"createdAt": "2021-07-05T19:07:14.613Z",
-					"updatedAt": "2021-07-05T19:07:14.613Z"
+					"updatedAt": "2021-07-05T19:07:14.613Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4c9c9827-ed7c-4fc9-95f1-ea5e554c095d",
@@ -9356,7 +9584,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438275,
 					"createdAt": "2021-07-05T16:07:46.643Z",
-					"updatedAt": "2021-07-05T16:07:46.643Z"
+					"updatedAt": "2021-07-05T16:07:46.643Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c2697746-e9d2-44eb-aead-c6c84cc63b14",
@@ -9391,7 +9620,8 @@
 
 					"_lastChangedAt": 1625512034478,
 					"createdAt": "2021-07-05T19:07:14.477Z",
-					"updatedAt": "2021-07-05T19:07:14.477Z"
+					"updatedAt": "2021-07-05T19:07:14.477Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "52286113-c9bf-4257-9894-7580b8cf30fc",
@@ -9426,7 +9656,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438340,
 					"createdAt": "2021-07-05T17:49:22.501Z",
-					"updatedAt": "2021-07-05T17:49:22.501Z"
+					"updatedAt": "2021-07-05T17:49:22.501Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "142c23ba-d9ac-427e-9406-a7e3938f0d30",
@@ -9461,7 +9692,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438336,
 					"createdAt": "2021-07-05T17:46:34.117Z",
-					"updatedAt": "2021-07-05T17:46:34.117Z"
+					"updatedAt": "2021-07-05T17:46:34.117Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8ff1aee4-0979-42ed-813b-a18209d6c166",
@@ -9496,7 +9728,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438289,
 					"createdAt": "2021-07-05T16:07:46.651Z",
-					"updatedAt": "2021-07-05T16:07:46.651Z"
+					"updatedAt": "2021-07-05T16:07:46.651Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "bc6490f3-324a-4014-a08e-0e0c8228d47b",
@@ -9539,7 +9772,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438299,
 					"createdAt": "2021-07-05T17:46:34.105Z",
-					"updatedAt": "2021-07-05T17:46:34.105Z"
+					"updatedAt": "2021-07-05T17:46:34.105Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c4c6fab8-6873-4031-a336-8d0a1009ffc4",
@@ -9574,7 +9808,8 @@
 
 					"_lastChangedAt": 1625512034621,
 					"createdAt": "2021-07-05T19:07:14.621Z",
-					"updatedAt": "2021-07-05T19:07:14.621Z"
+					"updatedAt": "2021-07-05T19:07:14.621Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6c69958a-4d26-48ff-9c95-0d845f1685e9",
@@ -9609,7 +9844,8 @@
 
 					"_lastChangedAt": 1625512034486,
 					"createdAt": "2021-07-05T19:07:14.486Z",
-					"updatedAt": "2021-07-05T19:07:14.486Z"
+					"updatedAt": "2021-07-05T19:07:14.486Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "35cece88-0a00-445c-9d1a-eb65cf3e270e",
@@ -9644,7 +9880,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438298,
 					"createdAt": "2021-07-05T16:07:46.694Z",
-					"updatedAt": "2021-07-05T16:07:46.694Z"
+					"updatedAt": "2021-07-05T16:07:46.694Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d8b68bf0-b495-410c-b0c2-0ba9d396dcf4",
@@ -9679,7 +9916,8 @@
 
 					"_lastChangedAt": 1625512034563,
 					"createdAt": "2021-07-05T19:07:14.563Z",
-					"updatedAt": "2021-07-05T19:07:14.563Z"
+					"updatedAt": "2021-07-05T19:07:14.563Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2020ac2c-245d-49b9-9aa5-2aabe0347623",
@@ -9714,7 +9952,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438298,
 					"createdAt": "2021-07-05T17:46:34.120Z",
-					"updatedAt": "2021-07-05T17:46:34.120Z"
+					"updatedAt": "2021-07-05T17:46:34.120Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c5d94c9e-a13b-4a99-9832-23e3fded60ba",
@@ -9749,7 +9988,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438294,
 					"createdAt": "2021-07-05T17:46:34.140Z",
-					"updatedAt": "2021-07-05T17:46:34.140Z"
+					"updatedAt": "2021-07-05T17:46:34.140Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c6318ebc-85bf-4636-9e40-56437eee73a7",
@@ -9802,7 +10042,8 @@
 
 					"_lastChangedAt": 1625512034448,
 					"createdAt": "2021-07-05T19:07:14.447Z",
-					"updatedAt": "2021-07-05T19:07:14.447Z"
+					"updatedAt": "2021-07-05T19:07:14.447Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "73ddc457-4ae1-4ea5-9b1d-6b9d005fe30f",
@@ -9845,7 +10086,8 @@
 
 					"_lastChangedAt": 1625512034453,
 					"createdAt": "2021-07-05T19:07:14.452Z",
-					"updatedAt": "2021-07-05T19:07:14.452Z"
+					"updatedAt": "2021-07-05T19:07:14.452Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c4651cdc-d4f2-4778-ade3-f71c349630f9",
@@ -9880,7 +10122,8 @@
 
 					"_lastChangedAt": 1625512034550,
 					"createdAt": "2021-07-05T19:07:14.550Z",
-					"updatedAt": "2021-07-05T19:07:14.550Z"
+					"updatedAt": "2021-07-05T19:07:14.550Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "2c4b7ef5-2e49-41e5-8c98-ae0e4e8f8130",
@@ -9915,7 +10158,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438282,
 					"createdAt": "2021-07-05T17:46:34.087Z",
-					"updatedAt": "2021-07-05T17:46:34.087Z"
+					"updatedAt": "2021-07-05T17:46:34.087Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "12737303-bf48-4b17-b00f-f8c66ce15135",
@@ -9950,7 +10194,8 @@
 
 					"_lastChangedAt": 1625512034564,
 					"createdAt": "2021-07-05T19:07:14.563Z",
-					"updatedAt": "2021-07-05T19:07:14.563Z"
+					"updatedAt": "2021-07-05T19:07:14.563Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "4fdeec29-e073-45e7-9cf4-117951a9494a",
@@ -9985,7 +10230,8 @@
 
 					"_lastChangedAt": 1625512034579,
 					"createdAt": "2021-07-05T19:07:14.578Z",
-					"updatedAt": "2021-07-05T19:07:14.578Z"
+					"updatedAt": "2021-07-05T19:07:14.578Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "8d5567e6-ca26-4854-88d2-dd8e9fc1a45c",
@@ -10020,7 +10266,8 @@
 
 					"_lastChangedAt": 1625512034502,
 					"createdAt": "2021-07-05T19:07:14.502Z",
-					"updatedAt": "2021-07-05T19:07:14.502Z"
+					"updatedAt": "2021-07-05T19:07:14.502Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6c12cfbe-1839-4303-8b3a-701f30128267",
@@ -10055,7 +10302,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438292,
 					"createdAt": "2021-07-05T17:46:34.086Z",
-					"updatedAt": "2021-07-05T17:46:34.086Z"
+					"updatedAt": "2021-07-05T17:46:34.086Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "98766bc4-ccaa-4c9c-9ca1-9bf1c897e9e0",
@@ -10098,7 +10346,8 @@
 
 					"_lastChangedAt": 1625512034462,
 					"createdAt": "2021-07-05T19:07:14.461Z",
-					"updatedAt": "2021-07-05T19:07:14.461Z"
+					"updatedAt": "2021-07-05T19:07:14.461Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0fc9b1cf-7cbe-476f-91ff-b9d8c4ffb301",
@@ -10133,7 +10382,8 @@
 
 					"_lastChangedAt": 1625512034446,
 					"createdAt": "2021-07-05T19:07:14.446Z",
-					"updatedAt": "2021-07-05T19:07:14.446Z"
+					"updatedAt": "2021-07-05T19:07:14.446Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6e7b2342-04a4-4161-b285-10d07f44ac0a",
@@ -10168,7 +10418,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438298,
 					"createdAt": "2021-07-05T16:07:46.544Z",
-					"updatedAt": "2021-07-05T16:07:46.544Z"
+					"updatedAt": "2021-07-05T16:07:46.544Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "28efdfef-e3f0-44af-b4ce-c551ec3a2179",
@@ -10203,7 +10454,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438297,
 					"createdAt": "2021-07-05T16:07:46.709Z",
-					"updatedAt": "2021-07-05T16:07:46.709Z"
+					"updatedAt": "2021-07-05T16:07:46.709Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "6143df3d-4768-4552-806c-c84a2b0d1ca0",
@@ -10238,7 +10490,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438299,
 					"createdAt": "2021-07-05T16:07:46.683Z",
-					"updatedAt": "2021-07-05T16:07:46.683Z"
+					"updatedAt": "2021-07-05T16:07:46.683Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f3c70dd6-44d3-469f-9494-17f9a59cf9a2",
@@ -10273,7 +10526,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438356,
 					"createdAt": "2021-07-05T16:07:46.561Z",
-					"updatedAt": "2021-07-05T16:07:46.561Z"
+					"updatedAt": "2021-07-05T16:07:46.561Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b137ba78-8ca1-4565-9190-6c0fa757accf",
@@ -10331,7 +10585,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438312,
 					"createdAt": "2021-07-05T17:46:34.076Z",
-					"updatedAt": "2021-07-05T17:46:34.076Z"
+					"updatedAt": "2021-07-05T17:46:34.076Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "47e1959e-9e3f-412b-ad28-7ac0ff2a7ac5",
@@ -10366,7 +10621,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438315,
 					"createdAt": "2021-07-05T17:48:51.312Z",
-					"updatedAt": "2021-07-05T17:48:51.312Z"
+					"updatedAt": "2021-07-05T17:48:51.312Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e7899bab-6c2f-4abc-a5f9-4cfa0f2128ce",
@@ -10401,7 +10657,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438353,
 					"createdAt": "2021-07-05T17:48:51.316Z",
-					"updatedAt": "2021-07-05T17:48:51.316Z"
+					"updatedAt": "2021-07-05T17:48:51.316Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "58a682ed-7283-4217-9459-ac6568c67c0a",
@@ -10436,7 +10693,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438335,
 					"createdAt": "2021-07-05T17:46:34.090Z",
-					"updatedAt": "2021-07-05T17:46:34.090Z"
+					"updatedAt": "2021-07-05T17:46:34.090Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d0ded34b-e619-490c-ac2d-f004974b526e",
@@ -10471,7 +10729,8 @@
 
 					"_lastChangedAt": 1625512034546,
 					"createdAt": "2021-07-05T19:07:14.546Z",
-					"updatedAt": "2021-07-05T19:07:14.546Z"
+					"updatedAt": "2021-07-05T19:07:14.546Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "861bd506-0ffa-498f-ba4e-f53344d4d3a8",
@@ -10506,7 +10765,8 @@
 
 					"_lastChangedAt": 1625512034521,
 					"createdAt": "2021-07-05T19:07:14.521Z",
-					"updatedAt": "2021-07-05T19:07:14.521Z"
+					"updatedAt": "2021-07-05T19:07:14.521Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f2bb7532-0654-48ed-81fd-926b42f312be",
@@ -10541,7 +10801,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438303,
 					"createdAt": "2021-07-05T17:49:22.500Z",
-					"updatedAt": "2021-07-05T17:49:22.500Z"
+					"updatedAt": "2021-07-05T17:49:22.500Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "643c0e09-c766-4d52-b1c2-80e6a96416be",
@@ -10601,7 +10862,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438363,
 					"createdAt": "2021-07-05T17:46:34.091Z",
-					"updatedAt": "2021-07-05T17:46:34.091Z"
+					"updatedAt": "2021-07-05T17:46:34.091Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "94d7503c-ba32-4095-a033-3eb617ff5ca0",
@@ -10647,7 +10909,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438362,
 					"createdAt": "2021-07-05T17:48:51.310Z",
-					"updatedAt": "2021-07-05T17:48:51.310Z"
+					"updatedAt": "2021-07-05T17:48:51.310Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "61233571-3031-4156-bb45-13f3bea47040",
@@ -10688,7 +10951,8 @@
 
 					"_lastChangedAt": 1625512034530,
 					"createdAt": "2021-07-05T19:07:14.529Z",
-					"updatedAt": "2021-07-05T19:07:14.529Z"
+					"updatedAt": "2021-07-05T19:07:14.529Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "9356e31e-1c6a-43a9-ba1a-4fbc7a903da6",
@@ -10723,7 +10987,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438364,
 					"createdAt": "2021-07-05T17:48:51.311Z",
-					"updatedAt": "2021-07-05T17:48:51.311Z"
+					"updatedAt": "2021-07-05T17:48:51.311Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "b3ff9d43-bc41-4b65-a013-b204fb04238e",
@@ -10758,7 +11023,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438365,
 					"createdAt": "2021-07-05T16:07:46.602Z",
-					"updatedAt": "2021-07-05T16:07:46.602Z"
+					"updatedAt": "2021-07-05T16:07:46.602Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e3c0fa8a-879b-45cd-a6aa-7eb32b5eb912",
@@ -10793,7 +11059,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438365,
 					"createdAt": "2021-07-05T16:07:46.663Z",
-					"updatedAt": "2021-07-05T16:07:46.663Z"
+					"updatedAt": "2021-07-05T16:07:46.663Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "982f20ab-3fe6-4418-93d8-0c7dba960d78",
@@ -10839,7 +11106,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438369,
 					"createdAt": "2021-07-05T17:46:34.062Z",
-					"updatedAt": "2021-07-05T17:46:34.062Z"
+					"updatedAt": "2021-07-05T17:46:34.062Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "c4b5f2f4-40cb-4067-a342-75bb721fd4e9",
@@ -10881,7 +11149,8 @@
 
 					"_lastChangedAt": 1625512034491,
 					"createdAt": "2021-07-05T19:07:14.491Z",
-					"updatedAt": "2021-07-05T19:07:14.491Z"
+					"updatedAt": "2021-07-05T19:07:14.491Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "f8578dc7-e842-4c1e-931d-86802e480bac",
@@ -10916,7 +11185,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438364,
 					"createdAt": "2021-07-05T16:07:46.708Z",
-					"updatedAt": "2021-07-05T16:07:46.708Z"
+					"updatedAt": "2021-07-05T16:07:46.708Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "d6266e00-6c3b-450d-b00a-400e13a44788",
@@ -10951,7 +11221,8 @@
 
 					"_lastChangedAt": 1625512034520,
 					"createdAt": "2021-07-05T19:07:14.520Z",
-					"updatedAt": "2021-07-05T19:07:14.520Z"
+					"updatedAt": "2021-07-05T19:07:14.520Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "3d00449d-a6e0-4a69-8d69-7c1b0ddafb03",
@@ -11008,7 +11279,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438372,
 					"createdAt": "2021-07-05T17:46:34.079Z",
-					"updatedAt": "2021-07-05T17:46:34.079Z"
+					"updatedAt": "2021-07-05T17:46:34.079Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "e2f91869-c40e-4610-aa6d-013f05a2fc7b",
@@ -11059,7 +11331,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438364,
 					"createdAt": "2021-07-05T17:46:34.092Z",
-					"updatedAt": "2021-07-05T17:46:34.092Z"
+					"updatedAt": "2021-07-05T17:46:34.092Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "94966685-197c-412b-a358-d3818c9a7696",
@@ -11094,7 +11367,8 @@
 
 					"_lastChangedAt": 1625512034590,
 					"createdAt": "2021-07-05T19:07:14.590Z",
-					"updatedAt": "2021-07-05T19:07:14.590Z"
+					"updatedAt": "2021-07-05T19:07:14.590Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "0c57b302-0e8e-4fbc-a2e6-40661a9a4ff2",
@@ -11158,7 +11432,8 @@
 					"_deleted": true,
 					"_lastChangedAt": 1625511438368,
 					"createdAt": "2021-07-05T17:46:34.110Z",
-					"updatedAt": "2021-07-05T17:46:34.110Z"
+					"updatedAt": "2021-07-05T17:46:34.110Z",
+                    "difficulty": 5
 				},
 				{
 					"id": "5321f8da-b348-4dd6-afa3-f5020045b419",

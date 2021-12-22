@@ -1,3 +1,5 @@
+import { Question } from "@elephant-games/game";
+
 export declare class Element {
   readonly id: string;
   readonly name: string;
@@ -29,4 +31,8 @@ export declare class Element {
   readonly cpkHex?: string;
   readonly createdAt?: string;
   readonly updatedAt?: string;
-}
+};
+
+type ElementQuestion = Element & Question;
+
+export type { ElementQuestion };
