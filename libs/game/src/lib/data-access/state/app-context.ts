@@ -2,46 +2,63 @@ import { ReactNode } from 'react';
 
 type Game = "flags" | "periodic-table";
 type Screen = "Home" | "Settings" | "Quiz" | "Completed";
-type Difficulty = "easy" | "medium" | "hard";
-type MultipleChoiceOptions = 2 | 4 | 8;
+type NumberOfMultipleChoiceOptions = 2 | 4 | 8;
+const difficultyOptions: Difficulty[] = [{
+    display: "easy",
+    numericDifficulty: 1
+}, {
+    display: "medium",
+    numericDifficulty: 5
+}, {
+    display: "hard",
+    numericDifficulty: 8
+}];
 
-interface GameState {
-    screen: Screen;
+interface Difficulty {
+    display: "easy" | "medium" | "hard",
+    numericDifficulty: number
+};
+interface GameConfig {
     game?: Game;
-    multipleChoiceResponses: MultipleChoiceOptions;
+    selectedNumberOfMultipleChoiceOptions: NumberOfMultipleChoiceOptions;
     difficulty: Difficulty;
 };
 
 interface AppContextProviderOptions {
-    gameState: GameState;
+    gameConfig: GameConfig;
     children: ReactNode;
 };
 
-interface QuizState<E> {
-    remainingQuestions?: E[];
-    quizItem?: E;
+interface QuizState {
+    remainingQuestions?: Question[];
+    multipleChoiceOptions?: Question[];
+    quizItem?: Question;
     promptCategory: string;
-    currentIncorrectPile: number[];
-    aggregateIncorrectPile: number[];
+    currentIncorrectPile: Question[];
+    currentIncorrectResponses: Question[];
+    aggregateIncorrectPile: Question[];
+    questions?: Question[];
 };
 
-interface AppState<E> {
-    gameState: GameState;
-    quiz: QuizState<E>;
-    questions?: E[];
+interface AppState {
+    gameConfig: GameConfig;
+    questionPool?: Question[];
+    quiz: QuizState;
 };
 
 enum AppActionType {
     GameSelected = "[Game] Game Selected",
     Play = "[Game] Play Game",
     Configure = "[Game] Update Game Configuration",
-    AnswerQuestion = '[Periodic Table] Answer Question',
-    QuizPoolLoaded = '[PeriodicTable] Elements Loaded'
+    AnswerQuestion = '[Game] Answer Question',
+    QuizPoolLoaded = '[Game] Quiz Pool Loaded',
+    GameCompleted = '[Game] Quiz Complete',
+    ResetQuizState = '[Game] Reset Quiz State'
 };
 
 interface Question {
     key: string;
-    difficulty: Difficulty;
+    difficulty: number;
 };
 
 interface AppAction {
@@ -49,22 +66,22 @@ interface AppAction {
     payload?: any
 };
 
-const initialStateQuizItem: QuizState<unknown> = {
+const initialStateQuizItem: QuizState = {
+    questions: [],
     promptCategory: 'name',
     currentIncorrectPile: [],
+    currentIncorrectResponses: [],
     aggregateIncorrectPile: []
 };
 
-const initialStateApp: AppState<unknown> = {
-    gameState: {
-        screen: "Home",
+const initialStateApp: AppState = {
+    gameConfig: {
         game: "flags",
-        difficulty: "easy",
-        multipleChoiceResponses: 4
+        difficulty: difficultyOptions[0],
+        selectedNumberOfMultipleChoiceOptions: 4
     },
-    questions: [],
     quiz: initialStateQuizItem
 };
 
-export type { Game, Screen, Question, MultipleChoiceOptions, Difficulty, GameState, AppContextProviderOptions, QuizState, AppState, AppAction };
-export { AppActionType, initialStateQuizItem, initialStateApp };
+export type { Game, Screen, Question, NumberOfMultipleChoiceOptions, Difficulty, GameConfig, AppContextProviderOptions, QuizState, AppState, AppAction };
+export { AppActionType, initialStateQuizItem, initialStateApp, difficultyOptions };

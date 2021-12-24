@@ -1,34 +1,34 @@
-import { AppActionType, AppContext, Difficulty, MultipleChoiceOptions } from "@elephant-games/game";
+import { AppActionType, AppContext, Difficulty, difficultyOptions, NumberOfMultipleChoiceOptions } from "@elephant-games/game";
 import { toTitleCase } from "@elephant-games/utils";
 import React, { useContext } from 'react';
 import { View } from "react-native";
 import { ButtonGroup, Text, useTheme } from 'react-native-elements';
-import { diff } from "react-native-reanimated";
 
-const multipleChoiceOptions: MultipleChoiceOptions[] = [2, 4, 8];
-const difficultyOptions: Difficulty[] = ['easy', 'medium', 'hard'];
+const numberOfMultipleChoiceOptions: NumberOfMultipleChoiceOptions[] = [2, 4, 8];
+
 
 const Settings = () => {
     const { theme } = useTheme();
     const context = useContext(AppContext);
     const { state, dispatch } = context;
-    const multipleChoiceStateIndex = multipleChoiceOptions.indexOf(state.gameState.multipleChoiceResponses);
-    const difficultyStateIndex = difficultyOptions.indexOf(state.gameState.difficulty);
+    const multipleChoiceStateIndex = numberOfMultipleChoiceOptions.indexOf(state.gameConfig.selectedNumberOfMultipleChoiceOptions);
+    const difficultyStateIndex = difficultyOptions.map((d) => d.numericDifficulty).indexOf(state.gameConfig.difficulty.numericDifficulty);
 
-    const onNumberOfMultipleChoiceSelectChange = (selectedIndex: MultipleChoiceOptions) => {
+    const onNumberOfMultipleChoiceSelectChange = (selectedIndex: number) => {
         dispatch({
             type: AppActionType.Configure,
             payload: {
-                multipleChoiceResponses: multipleChoiceOptions[selectedIndex]
+                selectedNumberOfMultipleChoiceOptions: numberOfMultipleChoiceOptions[selectedIndex]
             }
         });
     };
 
-    const onDifficultyChange = (selectedIndex: Difficulty) => {
+    const onDifficultyChange = (difficulty: Difficulty) => {
+        console.log('onDifficultyChange - difficulty=', difficulty);
         dispatch({
             type: AppActionType.Configure,
             payload: {
-                difficulty: difficultyOptions[selectedIndex]
+                difficulty
             }
         });
     };
@@ -38,7 +38,7 @@ const Settings = () => {
             <View style={{display: 'flex', justifyContent: 'center'}}>
                 <Text h4>Multiple Choice</Text>
                 <ButtonGroup
-                    buttons={multipleChoiceOptions.map((i) => `${i} Options`)}
+                    buttons={numberOfMultipleChoiceOptions.map((i) => `${i} Options`)}
                     selectedIndex={multipleChoiceStateIndex}
                     onPress={(value) => {
                         onNumberOfMultipleChoiceSelectChange(value);
@@ -49,10 +49,10 @@ const Settings = () => {
             <View>
                 <Text h4>Difficulty</Text>
                 <ButtonGroup
-                    buttons={difficultyOptions.map((difficulty) => toTitleCase(difficulty))}
+                    buttons={difficultyOptions.map((difficulty) => toTitleCase(difficulty.display))}
                     selectedIndex={difficultyStateIndex}
-                    onPress={(value) => {
-                        onDifficultyChange(value);
+                    onPress={(buttonIndex: number) => {
+                        onDifficultyChange(difficultyOptions[buttonIndex]);
                     }}
                     containerStyle={{ marginBottom: 20 }}
                 />

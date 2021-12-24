@@ -3,7 +3,7 @@ import { RenderResult } from '@testing-library/react';
 import { Element } from '@elephant-games/chemistry';
 import { customRender } from '../../testing-utils';
 import * as mockData from '../../../data-access/periodic-table.mock-data.json';
-import PeriodicTable from './PeriodicTable';
+import { PeriodicTable } from './PeriodicTable';
 import { useContext } from 'react';
 import * as React from 'react';
 
@@ -25,9 +25,10 @@ beforeEach(() => {
 
 xdescribe('Layout', () => {
     const state = {
-        questions: [...mockData.data.listElements.items],
         quiz: {
-            currentIncorrectPile: []
+            currentIncorrectPile: [],
+            currentIncorrectResponses: [],
+            questions: [...mockData.data.listElements.items]
         }
     };
     // console.log('mockData =', mockData.data.listElements.items[0]);
@@ -38,7 +39,7 @@ xdescribe('Layout', () => {
     test('should display all elements passed in', () => {
         useContextMock.mockReturnValue({ state });
         const periodicTable: RenderResult = customRender(<PeriodicTable />, { providerProps })
-        state.questions.forEach((element: Element) => {
+        state.quiz.questions.forEach((element: Element) => {
             const matcher = new RegExp(`^${element.symbol}$`);
             const e = periodicTable.getByText(matcher);
             // expect(e).toBeInTheDocument();

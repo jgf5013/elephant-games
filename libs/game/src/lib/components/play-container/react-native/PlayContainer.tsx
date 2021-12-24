@@ -8,18 +8,14 @@ import { MultipleChoice } from '../../response/multiple-choice/react-native/Mult
 
 const styles = StyleSheet.create({
     header: {
-    //   backgroundColor: 'floralwhite',
-      flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center',
-      paddingVertical: 24,
+        display: 'flex',
+        flex: 1,
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     body: {
       backgroundColor: Colors.white,
-    },
-    sectionContainer: {
-      marginTop: 32,
-      paddingHorizontal: 24,
     },
     answersContainer: {
       display: 'flex',
@@ -36,10 +32,8 @@ const PlayContainer = () => {
                 <Prompt />
             </View>
             <View style={styles.body}>
-                <View style={styles.sectionContainer}>
-                    <View style={styles.answersContainer}>
-                        <MultipleChoice />
-                    </View>
+                <View style={styles.answersContainer}>
+                    <MultipleChoice />
                 </View>
             </View>
         </>

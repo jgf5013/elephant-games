@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
         display: 'flex',
         flex: 1,
         flexDirection: 'row',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor: 'dark-green'
     },
     body: {
         display: 'flex',
@@ -21,30 +22,26 @@ const styles = StyleSheet.create({
     }
 });
 
-const Home = ({ navigation }) => {
+const Completed = ({ navigation }) => {
     const context = useContext(AppContext);
     const { dispatch } = context;
 
-    const playGame = () => {
-        dispatch({ type: AppActionType.Play });
-        navigation.navigate("Quiz");
-    };
-    const goToSettings = () => {
-        navigation.navigate("Settings");
+    console.log('Completed...');
+
+    const handleOnClick = () => {
+        dispatch({ type: AppActionType.ResetQuizState });
+        navigation.navigate("Home");
     };
 
     return (
         <View style={styles.bodyContainer}>
             <View style={styles.body}>
                 <Button
-                    title="Play"
-                    onPress={() => playGame()} />
-                <Button
-                    title="Settings"
-                    onPress={() => goToSettings()} />
+                    title="I know, I'm awesome!"
+                    onPress={() => handleOnClick()} />
             </View>
         </View>
     );
 };
 
-export { Home };
+export { Completed };

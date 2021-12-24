@@ -1,33 +1,39 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { StyleSheet, View, Text } from "react-native";
 import { AppState, Game, Question, QuizState } from "../../../../data-access/state/app-context";
 import { AppContext } from '../../../../data-access/state/react/app-context';
 
 import { Flag } from '@elephant-games/geopolitical';
+import { navigate } from "@elephant-games/game";
 
 export const Prompt = () => {
     const context = useContext(AppContext);
     const { state } = context;
-    const { gameState, quiz } = state;
+    const { gameConfig, quiz } = state;
 
-    const prompt = getGamePrompt({game: gameState.game, quiz});
+    console.log('Prompt - quiz.remainingQuestions.length=', quiz.remainingQuestions.length);
+    useEffect(() => {
+        if (quiz.remainingQuestions.length === 0 && (typeof quiz.quizItem === "undefined")) {
+            navigate("Completed")
+        }
+    } ,[quiz.remainingQuestions, quiz.quizItem])
+
+    const prompt = getGamePrompt({game: gameConfig.game, quiz});
 
     return (
-        <View>  
+        <View style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
             {prompt}
-        </View>
-    );
+        </View>);
 };
 
 interface GetGamePromptOptions<Question> {
     game: Game,
-    quiz: QuizState<Question>
+    quiz: QuizState
 };
 
 const getGamePrompt = (options: GetGamePromptOptions<Question>) => {
     switch(options.game) {
         case "flags":
-            console.log('getGamePrompt - options.quiz.quizItem=', options.quiz.quizItem);
             return options.quiz.quizItem ? <Flag country={options.quiz.quizItem.key} /> : null;
         case "periodic-table":
             return <Text>{options.quiz.quizItem ? options.quiz.quizItem[options.quiz.promptCategory] : null}</Text>
