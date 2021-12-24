@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around',
         flexWrap: 'wrap',
-        backgroundColor: 'ghostwhite'
-        
+        backgroundColor: 'ghostwhite',
+        width: '100%'
     },
 });
 
