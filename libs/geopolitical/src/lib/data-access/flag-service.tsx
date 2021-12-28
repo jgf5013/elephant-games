@@ -1,8 +1,9 @@
-import { Question, QuizState } from "@elephant-games/game";
+import { AnswerChecker, GamePrompt, Question } from "@elephant-games/game";
+import { Flag } from "../components/Flag/react-native/Flag"; // TODO: This should be framework (react vs react-native)-agnostic. Ideally, this should just be a .ts file and UI stuff should be in another place.
 
-type Flag = any & Question;
+type FlagData = any & Question;
 
-const flags: Record<string, Flag> = {
+const flags: Record<string, FlagData> = {
     "abkhazia": {
         difficulty: 7
     },
@@ -659,7 +660,7 @@ const flags: Record<string, Flag> = {
         difficulty: 6
     },
     "spain": {
-        difficulty: 3
+        difficulty: 4
     },
     "sri-lanka": {
         difficulty: 6
@@ -783,7 +784,7 @@ const flags: Record<string, Flag> = {
     }
 };
 
-const fetchFlags = (): Promise<Flag[]> => {
+const fetchFlags = (): Promise<FlagData[]> => {
     const mappedFlags = Object.keys(flags).map((country) => {
         return {
             key: country,
@@ -795,9 +796,13 @@ const fetchFlags = (): Promise<Flag[]> => {
 
 const fetchFlag = (flag: string) => {
     return flags[flag];
-}
-
-const isAnswerCorrect = (quizState: QuizState, answer: string): boolean => (quizState.quizItem?.key === answer);
+};
 
 
-export { fetchFlags, fetchFlag, isAnswerCorrect };
+const getGamePrompt: GamePrompt = (options) => {
+    return options.quiz.quizItem ? <Flag country={ options.quiz.quizItem.key } /> : null;
+};
+
+const isAnswerCorrect: AnswerChecker = (quizState, answer) => (quizState.quizItem?.key === answer);
+
+export { fetchFlags, fetchFlag, isAnswerCorrect, getGamePrompt };

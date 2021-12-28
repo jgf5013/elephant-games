@@ -1,0 +1,10 @@
+## Release: 2021-12
+x create icon
+x put android icon in place
+x put ios icon in place
+- add test cases for reducer
+- publish app
+
+## TODO
+- put settings at bottom
+- remove top navigation bar

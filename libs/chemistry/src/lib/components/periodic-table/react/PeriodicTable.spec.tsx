@@ -1,11 +1,11 @@
 import '@testing-library/jest-dom';
 import { RenderResult } from '@testing-library/react';
-import { Element } from '@elephant-games/chemistry';
 import { customRender } from '../../testing-utils';
 import * as mockData from '../../../data-access/periodic-table.mock-data.json';
 import { PeriodicTable } from './PeriodicTable';
 import { useContext } from 'react';
 import * as React from 'react';
+import { Element } from '../../../models/index';
 
 
 let realUseContext: any;

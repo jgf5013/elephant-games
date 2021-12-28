@@ -1,0 +1,23 @@
+{
+  "root": "libs/chemistry",
+  "sourceRoot": "libs/chemistry/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/chemistry/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/chemistry"],
+      "options": {
+        "jestConfig": "libs/chemistry/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@ type Screen = "Home" | "Settings" | "Quiz" | "Completed";
 type NumberOfMultipleChoiceOptions = 2 | 4 | 8;
 const difficultyOptions: Difficulty[] = [{
     display: "easy",
-    numericDifficulty: 1
+    numericDifficulty: 2
 }, {
     display: "medium",
     numericDifficulty: 5
@@ -18,11 +18,24 @@ interface Difficulty {
     display: "easy" | "medium" | "hard",
     numericDifficulty: number
 };
+
+interface GetGamePromptOptions {
+    game: Game,
+    quiz: QuizState
+};
+
+type GamePrompt = (options: GetGamePromptOptions) => ReactNode;
+
 interface GameConfig {
     game?: Game;
     selectedNumberOfMultipleChoiceOptions: NumberOfMultipleChoiceOptions;
     difficulty: Difficulty;
+    isAnswerCorrect?: AnswerChecker;
+    getGamePrompt?: GamePrompt;
+    fetchQuestionPool?: () => Promise<Question[]>
 };
+
+
 
 interface AppContextProviderOptions {
     gameConfig: GameConfig;
@@ -83,5 +96,7 @@ const initialStateApp: AppState = {
     quiz: initialStateQuizItem
 };
 
-export type { Game, Screen, Question, NumberOfMultipleChoiceOptions, Difficulty, GameConfig, AppContextProviderOptions, QuizState, AppState, AppAction };
+type AnswerChecker = (quizState: QuizState, response: string) => boolean;
+
+export type { Game, Screen, Question, NumberOfMultipleChoiceOptions, Difficulty, GameConfig, AppContextProviderOptions, QuizState, AppState, AppAction, AnswerChecker, GamePrompt };
 export { AppActionType, initialStateQuizItem, initialStateApp, difficultyOptions };

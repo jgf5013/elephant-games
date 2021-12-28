@@ -1,9 +1,14 @@
 {
-  "version": 2,
-  "projects": {
-    "geopolitical": "libs/geopolitical",
-    "flags": "apps/flags",
-    "flags-e2e": "apps/flags-e2e",
-    "utils": "libs/utils"
-  }
+    "version": 2,
+    "projects": {
+        
+        "flags": "apps/flags",
+        "flags-e2e": "apps/flags-e2e",
+
+        "auth": "libs/auth",
+        "chemistry": "libs/chemistry",
+        "game": "libs/game",
+        "geopolitical": "libs/geopolitical",
+        "utils": "libs/utils"
+    }
 }

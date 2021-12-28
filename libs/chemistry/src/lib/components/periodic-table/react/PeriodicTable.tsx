@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { AppContext } from '@elephant-games/game';
 import { Element, ElementQuestion } from '../../../models/index';
 import { AtomicElement } from '../../atomic-element/react/AtomicElement';
-import { elementListToElementMatrix } from '../../../data-access/periodic-table.service';
+import { elementListToElementMatrix } from '../../../data-access/periodic-table.service.tsx';
 import './PeriodicTable.module.scss';
 
 

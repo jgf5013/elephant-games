@@ -1,8 +1,9 @@
-import { AppActionType, AppContext, Difficulty, difficultyOptions, NumberOfMultipleChoiceOptions } from "@elephant-games/game";
 import { toTitleCase } from "@elephant-games/utils";
 import React, { useContext } from 'react';
 import { View } from "react-native";
 import { ButtonGroup, Text, useTheme } from 'react-native-elements';
+import { AppActionType, Difficulty, difficultyOptions, NumberOfMultipleChoiceOptions } from "../../../data-access/state/app-context";
+import { AppContext } from "../../../data-access/state/react/app-context";
 
 const numberOfMultipleChoiceOptions: NumberOfMultipleChoiceOptions[] = [2, 4, 8];
 

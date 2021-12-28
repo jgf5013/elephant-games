@@ -1,0 +1,23 @@
+{
+  "root": "libs/game",
+  "sourceRoot": "libs/game/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/game/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/game"],
+      "options": {
+        "jestConfig": "libs/game/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

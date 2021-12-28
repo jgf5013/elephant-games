@@ -1,7 +1,8 @@
 import * as elementsJson from './periodic-table.mock-data.json';
 
 import { Element, ElementQuestion } from '../models';
-import { QuizState } from "@elephant-games/game";
+import { AnswerChecker, GamePrompt } from "@elephant-games/game";
+import { Text } from 'react-native'; // TODO: This should be framework (react vs react-native)-agnostic. Ideally, this should just be a .ts file and UI stuff should be in another place.
 
 import { TABLE_COLUMNS, TABLE_ROWS } from '../constants';
 
@@ -48,7 +49,7 @@ function isAlreadySaved(savedElements: any[], e: any): boolean {
   return savedElements.map(se => se.name).indexOf(e.name) !== -1;
 }
 
-const isAnswerCorrect = (QuizState: QuizState<Element>, answer: number): boolean => (QuizState.quizItem.number === answer);
+const isAnswerCorrect: AnswerChecker = (QuizState, answer) => (QuizState.quizItem.key === answer.toString());
 
 
 
@@ -60,4 +61,9 @@ const isAnswerCorrect = (QuizState: QuizState<Element>, answer: number): boolean
 //   });
 // }
 
-export { isAlreadySaved, fetchElements, isAnswerCorrect, elementListToElementMatrix };
+
+const getGamePrompt: GamePrompt = (options) => {
+    return <Text>{options.quiz.quizItem ? options.quiz.quizItem[options.quiz.promptCategory] : null}</Text>;
+};
+
+export { isAlreadySaved, fetchElements, isAnswerCorrect, elementListToElementMatrix, getGamePrompt };

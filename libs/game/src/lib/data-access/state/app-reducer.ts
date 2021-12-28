@@ -1,10 +1,9 @@
 
 import { Reducer } from 'react';
-import { Element } from '@elephant-games/chemistry';
-import { AppAction, AppActionType, AppState, Game, GameConfig, initialStateQuizItem, Question, QuizState } from "./app-context";
-import { filterDifficulty, getMultipleChoiceResponses, getQuestionFromKey, isAnswerCorrect as isGameAnswerCorrect } from '../services/game.service';
+import { filterDifficulty, getMultipleChoiceResponses, getQuestionFromKey, isAnswerCorrect } from '../services/game.service';
+import { AppAction, AppActionType, AppState, GameConfig, Question, QuizState } from "./app-context";
 
-export const appReducer: Reducer<AppState, AppAction> = (state, action) => {
+const appReducer: Reducer<AppState, AppAction> = (state, action) => {
 
     switch (action.type) {
         case AppActionType.Configure:
@@ -40,7 +39,7 @@ export const appReducer: Reducer<AppState, AppAction> = (state, action) => {
         case AppActionType.AnswerQuestion:
             console.log('appReducer - state.quiz=', state.quiz);
             console.log('appReducer - action.payload=', action.payload);
-            return isAnswerCorrect(state.gameConfig.game, state.quiz, action.payload) ?
+            return isAnswerCorrect(state.gameConfig, state.quiz, action.payload) ?
                 { ...state, quiz: getNextQuestion(state) } :
                 { ...state, quiz: markIncorrect(state, action.payload) };
         case AppActionType.GameCompleted:
@@ -89,10 +88,6 @@ const resetQuizResponses = (state: AppState): QuizState => {
     };
 }
 
-const isAnswerCorrect = (game: Game, prompt: QuizState, responseGiven: number) => {
-    return isGameAnswerCorrect<Element>(game, prompt as QuizState, responseGiven);
-};
-
 const getNextQuestion = (state: AppState): QuizState => {
     console.log('getNextQuestion - state.quiz.remainingQuestions=', state.quiz.remainingQuestions);
     if (!state.quiz.questions?.length) {
@@ -139,4 +134,6 @@ const getMergedGameConfig = (gameConfig: GameConfig, updatedConfig: Partial<Game
     console.log('getMergedGameConfig - updatedConfig =', updatedConfig);
     console.log('getMergedGameConfig - config =', config);
     return config;
-}
+};
+
+export { appReducer };

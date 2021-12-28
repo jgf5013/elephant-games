@@ -1,6 +1,6 @@
 
 import { Meta, Story } from '@storybook/react';
-import { AtomicElement, Element } from '@elephant-games/chemistry';
+import { AtomicElement } from "./AtomicElement";
 
 export default {
   title: 'Example/AtomicElement',

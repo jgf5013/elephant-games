@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect, useReducer, useContext } from 'react';
 import { appReducer } from '../app-reducer';
-import { fetchQuizQuestionPool, filterDifficulty } from '../../services/game.service';
+import { fetchQuestionPool, filterDifficulty } from '../../services/game.service';
 import { createContext } from 'react';
 
 import { AppAction, AppActionType, AppContextProviderOptions, AppState, initialStateApp, Question } from "../app-context";
@@ -24,7 +24,7 @@ const AppContextProvider = ({ gameConfig, children }: AppContextProviderOptions)
 
     useEffect(() => {
         if (!state.quiz.questions?.length) {
-            fetchQuizQuestionPool(gameConfig.game)
+            fetchQuestionPool(state.gameConfig)
                 .then((quizPool: Question[]) => {
                     dispatch({type: AppActionType.QuizPoolLoaded, payload: quizPool});
             });

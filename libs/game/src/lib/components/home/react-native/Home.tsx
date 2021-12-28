@@ -5,7 +5,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { AppActionType, Game, Screen } from "../../../data-access/state/app-context";
 import { Button } from 'react-native-elements';
-import { AppContext } from "@elephant-games/game";
+import { AppContext } from "../../../data-access/state/react/app-context";
+
 
 const styles = StyleSheet.create({
     bodyContainer: {

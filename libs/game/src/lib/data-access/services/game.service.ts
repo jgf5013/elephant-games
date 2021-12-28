@@ -1,32 +1,14 @@
-import { Difficulty, Game, Question, QuizState } from "../state/app-context";
+import { Difficulty, Game, GameConfig, Question, QuizState } from "../state/app-context";
 
-import { fetchElements } from "@elephant-games/chemistry";
-import { fetchFlags } from '@elephant-games/geopolitical';
-
-import { isAnswerCorrect as isPeriodicTableAnswerCorrect } from '@elephant-games/chemistry';
-import { isAnswerCorrect as isFlagAnswerCorrect } from '@elephant-games/geopolitical';
 import { getRandomElements } from "@elephant-games/utils";
 
-const fetchQuizQuestionPool = (game: Game): Promise<Question[]> => {
-    switch (game) {
-        case "flags":
-            return fetchFlags();
-        case "periodic-table":
-            return fetchElements();
-    }
+const fetchQuestionPool = (game: GameConfig): Promise<Question[]> => {
+    return game.fetchQuestionPool();
 };
 
-const isAnswerCorrect = <E>(game: Game, prompt: QuizState, response: unknown): boolean => {
+const isAnswerCorrect = (gameConfig: GameConfig, prompt: QuizState, response: unknown): boolean => {
     const currentPrompt = prompt as unknown;
-    switch (game) {
-        case "flags":
-            return isFlagAnswerCorrect(currentPrompt as QuizState, response as string);
-        case "periodic-table":
-            return isPeriodicTableAnswerCorrect(currentPrompt as QuizState, response as number);
-        default:
-            console.error("isAnswerCorrect - invalid game type!!");
-            throw new Error("INVALID_ARG");
-    }
+    return gameConfig.isAnswerCorrect(currentPrompt as QuizState, response as string);
 };
 
 const filterDifficulty = (quizPool: Question[], difficulty: Difficulty): Question[] => {
@@ -56,4 +38,4 @@ const getQuestionFromKey = (questions: Question[], key: string): Question => {
     return foundQuestion;
 }
 
-export { fetchQuizQuestionPool, isAnswerCorrect, filterDifficulty, getMultipleChoiceResponses, getQuestionFromKey };
+export { fetchQuestionPool, isAnswerCorrect, filterDifficulty, getMultipleChoiceResponses, getQuestionFromKey };
