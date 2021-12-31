@@ -6,8 +6,7 @@
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
     "noEmit": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true
+    "skipLibCheck": true
   },
   "files": ["../../node_modules/@nrwl/react/typings/image.d.ts"],
   "include": [],

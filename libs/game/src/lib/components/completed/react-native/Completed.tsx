@@ -23,8 +23,6 @@ const Completed = ({ navigation }) => {
     const context = useContext(AppContext);
     const { dispatch } = context;
 
-    console.log('Completed...');
-
     const handleOnClick = () => {
         dispatch({ type: AppActionType.ResetQuizState });
         navigation.navigate("Home");

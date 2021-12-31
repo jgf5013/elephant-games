@@ -1,0 +1,764 @@
+{
+    "abkhazia": {
+        "difficulty": 7
+    },
+    "afghanistan": {
+        "difficulty": 5
+    },
+    "aland-islands": {
+        "difficulty": 8
+    },
+    "albania": {
+        "difficulty": 5
+    },
+    "algeria": {
+        "difficulty": 5
+    },
+    "american-samoa": {
+        "difficulty": 6
+    },
+    "andorra": {
+        "difficulty": 5
+    },
+    "angola": {
+        "difficulty": 6
+    },
+    "anguilla": {
+        "difficulty": 6
+    },
+    "antigua-and-barbuda": {
+        "difficulty": 6
+    },
+    "argentina": {
+        "difficulty": 4
+    },
+    "armenia": {
+        "difficulty": 6
+    },
+    "aruba": {
+        "difficulty": 6
+    },
+    "australia": {
+        "difficulty": 4
+    },
+    "austria": {
+        "difficulty": 5
+    },
+    "azerbaijan": {
+        "difficulty": 6
+    },
+    "azores-islands": {
+        "difficulty": 9
+    },
+    "bahamas": {
+        "difficulty": 5
+    },
+    "bahrain": {
+        "difficulty": 6
+    },
+    "balearic-islands": {
+        "difficulty": 9
+    },
+    "bangladesh": {
+        "difficulty": 7
+    },
+    "barbados": {
+        "difficulty": 7
+    },
+    "basque-country": {
+        "difficulty": 10
+    },
+    "belarus": {
+        "difficulty": 8
+    },
+    "belgium": {
+        "difficulty": 5
+    },
+    "belize": {
+        "difficulty": 5
+    },
+    "benin": {
+        "difficulty": 7
+    },
+    "bermuda": {
+        "difficulty": 6
+    },
+    "bhutan": {
+        "difficulty": 6
+    },
+    "bolivia": {
+        "difficulty": 5
+    },
+    "bonaire": {
+        "difficulty": 8
+    },
+    "bosnia-and-herzegovina": {
+        "difficulty": 6
+    },
+    "botswana": {
+        "difficulty": 6
+    },
+    "brazil": {
+        "difficulty": 2
+    },
+    "british-columbia": {
+        "difficulty": 7
+    },
+    "british-indian-ocean-territory": {
+        "difficulty": 9
+    },
+    "british-virgin-islands": {
+        "difficulty": 8
+    },
+    "brunei": {
+        "difficulty": 7
+    },
+    "bulgaria": {
+        "difficulty": 5
+    },
+    "burkina-faso": {
+        "difficulty": 6
+    },
+    "burundi": {
+        "difficulty": 6
+    },
+    "cambodia": {
+        "difficulty": 5
+    },
+    "cameroon": {
+        "difficulty": 7
+    },
+    "canada": {
+        "difficulty": 2
+    },
+    "canary-islands": {
+        "difficulty": 7
+    },
+    "cape-verde": {
+        "difficulty": 7
+    },
+    "cayman-islands": {
+        "difficulty": 9
+    },
+    "central-african-republic": {
+        "difficulty": 5
+    },
+    "ceuta": {
+        "difficulty": 10
+    },
+    "chad": {
+        "difficulty": 7
+    },
+    "chile": {
+        "difficulty": 4
+    },
+    "china": {
+        "difficulty": 1
+    },
+    "christmas-island": {
+        "difficulty": 8
+    },
+    "cocos-island": {
+        "difficulty": 6
+    },
+    "colombia": {
+        "difficulty": 5
+    },
+    "comoros": {
+        "difficulty": 7
+    },
+    "cook-islands": {
+        "difficulty": 8
+    },
+    "corsica": {
+        "difficulty": 8
+    },
+    "costa-rica": {
+        "difficulty": 5
+    },
+    "croatia": {
+        "difficulty": 6
+    },
+    "cuba": {
+        "difficulty": 4
+    },
+    "curacao": {
+        "difficulty": 9
+    },
+    "cyprus": {
+        "difficulty": 4
+    },
+    "czech-republic": {
+        "difficulty": 6
+    },
+    "democratic-republic-of-congo": {
+        "difficulty": 6
+    },
+    "denmark": {
+        "difficulty": 5
+    },
+    "djibouti": {
+        "difficulty": 8
+    },
+    "dominica": {
+        "difficulty": 7
+    },
+    "dominican-republic": {
+        "difficulty": 6
+    },
+    "east-timor": {
+        "difficulty": 8
+    },
+    "ecuador": {
+        "difficulty": 5
+    },
+    "egypt": {
+        "difficulty": 5
+    },
+    "el-salvador": {
+        "difficulty": 6
+    },
+    "england": {
+        "difficulty": 2
+    },
+    "equatorial-guinea": {
+        "difficulty": 6
+    },
+    "eritrea": {
+        "difficulty": 7
+    },
+    "estonia": {
+        "difficulty": 6
+    },
+    "ethiopia": {
+        "difficulty": 6
+    },
+    "european-union": {
+        "difficulty": 5
+    },
+    "falkland-islands": {
+        "difficulty": 8
+    },
+    "faroe-islands": {
+        "difficulty": 8
+    },
+    "fiji": {
+        "difficulty": 7
+    },
+    "finland": {
+        "difficulty": 5
+    },
+    "france": {
+        "difficulty": 4
+    },
+    "french-polynesia": {
+        "difficulty": 6
+    },
+    "gabon": {
+        "difficulty": 7
+    },
+    "galapagos-islands": {
+        "difficulty": 6
+    },
+    "gambia": {
+        "difficulty": 7
+    },
+    "georgia": {
+        "difficulty": 8
+    },
+    "germany": {
+        "difficulty": 3
+    },
+    "ghana": {
+        "difficulty": 6
+    },
+    "gibraltar": {
+        "difficulty": 9
+    },
+    "greece": {
+        "difficulty": 3
+    },
+    "greenland": {
+        "difficulty": 5
+    },
+    "grenada": {
+        "difficulty": 7
+    },
+    "guam": {
+        "difficulty": 6
+    },
+    "guatemala": {
+        "difficulty": 6
+    },
+    "guernsey": {
+        "difficulty": 10
+    },
+    "guinea": {
+        "difficulty": 8
+    },
+    "guinea-bissau": {
+        "difficulty": 8
+    },
+    "haiti": {
+        "difficulty": 6
+    },
+    "hawaii": {
+        "difficulty": 4
+    },
+    "honduras": {
+        "difficulty": 6
+    },
+    "hungary": {
+        "difficulty": 6
+    },
+    "iceland": {
+        "difficulty": 4
+    },
+    "india": {
+        "difficulty": 2
+    },
+    "indonesia": {
+        "difficulty": 6
+    },
+    "iran": {
+        "difficulty": 4
+    },
+    "iraq": {
+        "difficulty": 4
+    },
+    "ireland": {
+        "difficulty": 3
+    },
+    "isle-of-man": {
+        "difficulty": 8
+    },
+    "israel": {
+        "difficulty": 6
+    },
+    "italy": {
+        "difficulty": 4
+    },
+    "ivory-coast": {
+        "difficulty": 7
+    },
+    "jamaica": {
+        "difficulty": 2
+    },
+    "japan": {
+        "difficulty": 2
+    },
+    "jersey": {
+        "difficulty": 6
+    },
+    "jordan": {
+        "difficulty": 6
+    },
+    "kazakhstan": {
+        "difficulty": 8
+    },
+    "kenya": {
+        "difficulty": 6
+    },
+    "kosovo": {
+        "difficulty": 7
+    },
+    "kuwait": {
+        "difficulty": 7
+    },
+    "kyrgyzstan": {
+        "difficulty": 8
+    },
+    "laos": {
+        "difficulty": 6
+    },
+    "latvia": {
+        "difficulty": 6
+    },
+    "lebanon": {
+        "difficulty": 6
+    },
+    "lesotho": {
+        "difficulty": 6
+    },
+    "liberia": {
+        "difficulty": 6
+    },
+    "libya": {
+        "difficulty": 6
+    },
+    "liechtenstein": {
+        "difficulty": 8
+    },
+    "lithuania": {
+        "difficulty": 6
+    },
+    "luxembourg": {
+        "difficulty": 6
+    },
+    "macao": {
+        "difficulty": 7
+    },
+    "madagascar": {
+        "difficulty": 6
+    },
+    "malawi": {
+        "difficulty": 6
+    },
+    "malaysia": {
+        "difficulty": 6
+    },
+    "maldives": {
+        "difficulty": 6
+    },
+    "mali": {
+        "difficulty": 6
+    },
+    "malta": {
+        "difficulty": 6
+    },
+    "marshall-island": {
+        "difficulty": 9
+    },
+    "martinique": {
+        "difficulty": 9
+    },
+    "mauritania": {
+        "difficulty": 9
+    },
+    "mauritius": {
+        "difficulty": 9
+    },
+    "mexico": {
+        "difficulty": 2
+    },
+    "micronesia": {
+        "difficulty": 6
+    },
+    "moldova": {
+        "difficulty": 6
+    },
+    "monaco": {
+        "difficulty": 6
+    },
+    "mongolia": {
+        "difficulty": 6
+    },
+    "montenegro": {
+        "difficulty": 6
+    },
+    "montserrat": {
+        "difficulty": 6
+    },
+    "morocco": {
+        "difficulty": 6
+    },
+    "mozambique": {
+        "difficulty": 6
+    },
+    "myanmar": {
+        "difficulty": 6
+    },
+    "namibia": {
+        "difficulty": 8
+    },
+    "nauru": {
+        "difficulty": 9
+    },
+    "nepal": {
+        "difficulty": 8
+    },
+    "netherlands": {
+        "difficulty": 6
+    },
+    "new-zealand": {
+        "difficulty": 6
+    },
+    "nicaragua": {
+        "difficulty": 6
+    },
+    "niger": {
+        "difficulty": 7
+    },
+    "nigeria": {
+        "difficulty": 7
+    },
+    "niue": {
+        "difficulty": 10
+    },
+    "north-korea": {
+        "difficulty": 3
+    },
+    "northern-marianas-islands": {
+        "difficulty": 10
+    },
+    "norway": {
+        "difficulty": 6
+    },
+    "oman": {
+        "difficulty": 9
+    },
+    "orkney-islands": {
+        "difficulty": 9
+    },
+    "ossetia": {
+        "difficulty": 10
+    },
+    "otan": {
+        "difficulty": 10
+    },
+    "pakistan": {
+        "difficulty": 7
+    },
+    "palau": {
+        "difficulty": 9
+    },
+    "palestine": {
+        "difficulty": 6
+    },
+    "panama": {
+        "difficulty": 6
+    },
+    "papua-new-guinea": {
+        "difficulty": 6
+    },
+    "paraguay": {
+        "difficulty": 6
+    },
+    "peru": {
+        "difficulty": 5
+    },
+    "philippines": {
+        "difficulty": 5
+    },
+    "pitcairn-islands": {
+        "difficulty": 10
+    },
+    "poland": {
+        "difficulty": 5
+    },
+    "portugal": {
+        "difficulty": 5
+    },
+    "puerto-rico": {
+        "difficulty": 2
+    },
+    "qatar": {
+        "difficulty": 6
+    },
+    "rapa-nui": {
+        "difficulty": 10
+    },
+    "republic-of-macedonia": {
+        "difficulty": 8
+    },
+    "republic-of-the-congo": {
+        "difficulty": 6
+    },
+    "romania": {
+        "difficulty": 6
+    },
+    "russia": {
+        "difficulty": 2
+    },
+    "rwanda": {
+        "difficulty": 7
+    },
+    "saba-island": {
+        "difficulty": 10
+    },
+    "sahrawi-arab-democratic-republic": {
+        "difficulty": 10
+    },
+    "saint-kitts-and-nevis": {
+        "difficulty": 9
+    },
+    "samoa": {
+        "difficulty": 8
+    },
+    "san-marino": {
+        "difficulty": 6
+    },
+    "sao-tome-and-principe": {
+        "difficulty": 7
+    },
+    "sardinia": {
+        "difficulty": 9
+    },
+    "saudi-arabia": {
+        "difficulty": 5
+    },
+    "scotland": {
+        "difficulty": 5
+    },
+    "senegal": {
+        "difficulty": 8
+    },
+    "serbia": {
+        "difficulty": 6
+    },
+    "seychelles": {
+        "difficulty": 7
+    },
+    "sicily": {
+        "difficulty": 8
+    },
+    "sierra-leone": {
+        "difficulty": 8
+    },
+    "singapore": {
+        "difficulty": 6
+    },
+    "sint-eustatius": {
+        "difficulty": 9
+    },
+    "sint-maarten": {
+        "difficulty": 8
+    },
+    "slovakia": {
+        "difficulty": 7
+    },
+    "slovenia": {
+        "difficulty": 8
+    },
+    "solomon-islands": {
+        "difficulty": 9
+    },
+    "somalia": {
+        "difficulty": 7
+    },
+    "somaliland": {
+        "difficulty": 8
+    },
+    "south-africa": {
+        "difficulty": 4
+    },
+    "south-korea": {
+        "difficulty": 3
+    },
+    "south-sudan": {
+        "difficulty": 5
+    },
+    "spain": {
+        "difficulty": 4
+    },
+    "sri-lanka": {
+        "difficulty": 5
+    },
+    "st-barts": {
+        "difficulty": 9
+    },
+    "st-lucia": {
+        "difficulty": 7
+    },
+    "st-vincent-and-the-grenadines": {
+        "difficulty": 7
+    },
+    "sudan": {
+        "difficulty": 5
+    },
+    "suriname": {
+        "difficulty": 6
+    },
+    "sweden": {
+        "difficulty": 3
+    },
+    "switzerland": {
+        "difficulty": 2
+    },
+    "syria": {
+        "difficulty": 5
+    },
+    "taiwan": {
+        "difficulty": 4
+    },
+    "tajikistan": {
+        "difficulty": 6
+    },
+    "tanzania": {
+        "difficulty": 5
+    },
+    "thailand": {
+        "difficulty": 6
+    },
+    "tibet": {
+        "difficulty": 7
+    },
+    "togo": {
+        "difficulty": 7
+    },
+    "tokelau": {
+        "difficulty": 9
+    },
+    "tonga": {
+        "difficulty": 6
+    },
+    "transnistria": {
+        "difficulty": 10
+    },
+    "trinidad-and-tobago": {
+        "difficulty": 8
+    },
+    "tubalu": {
+        "difficulty": 9
+    },
+    "tunisia": {
+        "difficulty": 6
+    },
+    "turkey": {
+        "difficulty": 5
+    },
+    "turkmenistan": {
+        "difficulty": 5
+    },
+    "turks-and-caicos": {
+        "difficulty": 8
+    },
+    "uganda": {
+        "difficulty": 6
+    },
+    "ukraine": {
+        "difficulty": 5
+    },
+    "united-arab-emirates": {
+        "difficulty": 5
+    },
+    "united-nations": {
+        "difficulty": 3
+    },
+    "united-states-of-america": {
+        "difficulty": 1
+    },
+    "uruguay": {
+        "difficulty": 4
+    },
+    "uzbekistn": {
+        "difficulty": 6
+    },
+    "vanuatu": {
+        "difficulty": 7
+    },
+    "vatican-city": {
+        "difficulty": 5
+    },
+    "venezuela": {
+        "difficulty": 5
+    },
+    "vietnam": {
+        "difficulty": 4
+    },
+    "virgin-islands": {
+        "difficulty": 7
+    },
+    "wales": {
+        "difficulty": 6
+    },
+    "yemen": {
+        "difficulty": 5
+    },
+    "zambia": {
+        "difficulty": 5
+    },
+    "zimbabwe": {
+        "difficulty": 6
+    }
+}

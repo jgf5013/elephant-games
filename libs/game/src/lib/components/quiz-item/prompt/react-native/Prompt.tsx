@@ -7,15 +7,15 @@ import { AppContext } from '../../../../data-access/state/react/app-context';
 export const Prompt = () => {
     const context = useContext(AppContext);
     const { state } = context;
-    const { gameConfig, quiz } = state;
+    const { gameService, gameConfig, quiz } = state;
 
-    console.log('Prompt - quiz.remainingQuestions.length=', quiz.remainingQuestions.length);
+    // console.log('Prompt - quiz.remainingQuestions.length=', quiz.remainingQuestions.length);
     useEffect(() => {
         if (quiz.remainingQuestions.length === 0 && (typeof quiz.quizItem === "undefined")) {
             navigate("Completed");
         }
     }, [quiz.remainingQuestions, quiz.quizItem]);
-    const prompt = gameConfig.getGamePrompt({
+    const prompt = gameService.getGamePrompt({
         game: gameConfig.game,
         quiz
     });

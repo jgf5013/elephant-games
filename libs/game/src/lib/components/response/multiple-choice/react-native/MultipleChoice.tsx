@@ -24,7 +24,7 @@ const MultipleChoice = () => {
         dispatch({ type: AppActionType.AnswerQuestion, payload: answer });
     };
 
-    console.log('MultipleChoice - quiz.multipleChoiceOptions=', quiz.multipleChoiceOptions);
+    // console.log('MultipleChoice - quiz.multipleChoiceOptions=', quiz.multipleChoiceOptions);
     return (
         <View style={styles.answer}>
             {

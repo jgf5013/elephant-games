@@ -15,6 +15,7 @@
     "@eva-design/eva": "*",
     "react-native-ico-flags": "*",
     "react-native-svg": "*",
-    "react-native-elements": "*"
+    "react-native-elements": "*",
+    "react-native-reanimated": "*"
   }
 }

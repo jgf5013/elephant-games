@@ -25,7 +25,6 @@ const Settings = () => {
     };
 
     const onDifficultyChange = (difficulty: Difficulty) => {
-        console.log('onDifficultyChange - difficulty=', difficulty);
         dispatch({
             type: AppActionType.Configure,
             payload: {

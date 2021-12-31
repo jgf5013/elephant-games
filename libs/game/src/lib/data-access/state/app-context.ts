@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import { GameService } from "../services/game.service";
 
 type Game = "flags" | "periodic-table";
 type Screen = "Home" | "Settings" | "Quiz" | "Completed";
@@ -30,15 +31,13 @@ interface GameConfig {
     game?: Game;
     selectedNumberOfMultipleChoiceOptions: NumberOfMultipleChoiceOptions;
     difficulty: Difficulty;
-    isAnswerCorrect?: AnswerChecker;
-    getGamePrompt?: GamePrompt;
-    fetchQuestionPool?: () => Promise<Question[]>
 };
 
 
 
 interface AppContextProviderOptions {
     gameConfig: GameConfig;
+    gameService: GameService;
     children: ReactNode;
 };
 
@@ -57,6 +56,7 @@ interface AppState {
     gameConfig: GameConfig;
     questionPool?: Question[];
     quiz: QuizState;
+    gameService?: GameService;
 };
 
 enum AppActionType {

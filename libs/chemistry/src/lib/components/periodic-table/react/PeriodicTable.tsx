@@ -11,7 +11,7 @@ const PeriodicTable = () => {
     const { state } = useContext(AppContext);
     const { quiz } = state;
     const elementsMatrix = quiz.questions ? elementListToElementMatrix(quiz.questions as ElementQuestion[]) : [];
-    console.log('elementsMatrix[0]=', elementsMatrix[0]);
+    // console.log('elementsMatrix[0]=', elementsMatrix[0]);
     const tableOfElements = elementsMatrix.map((atomicElementProps: ({ atomicElement?: Element; } | undefined), index: number) => {
         return (<AtomicElement key={"table-element-" + index} atomicElement={atomicElementProps?.atomicElement} />);
     });

@@ -1,11 +1,12 @@
-import { AppContextProvider, Home, Completed, initialStateApp, navigationRef, PlayContainer, Settings } from '@elephant-games/game';
+import { AppContextProvider, Completed, Home, initialStateApp, navigationRef, PlayContainer, Settings } from '@elephant-games/game';
+import { gameService } from '@elephant-games/geopolitical';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import React, { useRef } from 'react';
-import { StatusBar, View } from 'react-native';
+import React from 'react';
+import { StatusBar } from 'react-native';
+import { ThemeProvider } from 'react-native-elements';
 import 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { ThemeProvider, Button } from 'react-native-elements';
 import { theme } from './Theme';
 
 
@@ -13,7 +14,7 @@ const Stack = createNativeStackNavigator();
 
 const AppContainer = () => {
     return (
-        <AppContextProvider gameConfig={{...initialStateApp.gameConfig}}>
+        <AppContextProvider gameService={gameService} gameConfig={{...initialStateApp.gameConfig}}>
             <SafeAreaProvider>
                 <StatusBar barStyle="dark-content" />
                 <ThemeProvider useDark={true} theme={theme}>
