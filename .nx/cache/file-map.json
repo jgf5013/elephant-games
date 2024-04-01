@@ -1,0 +1,1144 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.2.1",
+  "deps": {
+    "@babel/preset-typescript": "^7.16.5",
+    "@eva-design/eva": "^2.1.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@storybook/react": "^6.3.12",
+    "@testing-library/react": "^12.1.2",
+    "nx": "^18.2.1",
+    "react": "17.0.2",
+    "react-native": "0.66.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-ico-flags": "^3.3.1",
+    "react-native-reanimated": "^2.2.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "tslib": "^2.0.0",
+    "@nrwl/cli": "13.2.1",
+    "@nrwl/detox": "13.2.1",
+    "@nrwl/eslint-plugin-nx": "13.2.1",
+    "@nrwl/jest": "13.2.1",
+    "@nrwl/linter": "13.2.1",
+    "@nrwl/react-native": "13.2.1",
+    "@nrwl/tao": "13.2.1",
+    "@nrwl/workspace": "13.2.1",
+    "@nx/remix": "18.2.1",
+    "@react-native-community/cli": "6.1.0",
+    "@react-native-community/cli-platform-android": "6.1.0",
+    "@react-native-community/cli-platform-ios": "6.1.0",
+    "@testing-library/jest-dom": "5.15.0",
+    "@testing-library/jest-native": "4.0.4",
+    "@testing-library/react-native": "8.0.0",
+    "@types/detox": "17.14.3",
+    "@types/jest": "27.0.2",
+    "@types/node": "14.14.33",
+    "@types/react": "17.0.30",
+    "@types/react-native": "0.66.2",
+    "@typescript-eslint/eslint-plugin": "~4.33.0",
+    "@typescript-eslint/parser": "~4.33.0",
+    "babel-jest": "^27.2.3",
+    "detox": "19.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.26.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "jest": "^27.2.3",
+    "jest-circus": "27.2.3",
+    "jest-react-native": "18.0.0",
+    "metro": "0.66.2",
+    "metro-react-native-babel-preset": "0.66.2",
+    "metro-resolver": "0.66.2",
+    "prettier": "^2.3.1",
+    "react-native-svg-transformer": "0.14.3",
+    "react-test-renderer": "17.0.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "~4.4.3"
+  },
+  "pathMappings": {
+    "@elephant-games/auth": [
+      "libs/auth/src/index.ts"
+    ],
+    "@elephant-games/chemistry": [
+      "libs/chemistry/src/index.ts"
+    ],
+    "@elephant-games/geopolitical": [
+      "libs/geopolitical/src/index.ts"
+    ],
+    "@elephant-games/game": [
+      "libs/game/src/index.ts"
+    ],
+    "@elephant-games/utils": [
+      "libs/utils/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "15388041757782744192"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2839971467467631496"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17733650430415207254"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "README.md",
+        "hash": "15759370515721915323"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "16660802725935508991"
+      },
+      {
+        "file": "jest.config.js",
+        "hash": "8280827210074712746"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "5137147997102054031"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "monday.log",
+        "hash": "3736212833526420646"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10194565132668634880"
+      },
+      {
+        "file": "package.json",
+        "hash": "2016434663843013944"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "17660321378778357981"
+      },
+      {
+        "file": "workspace.json",
+        "hash": "15751931412233913269"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "2750102304656543875"
+      }
+    ],
+    "projectFileMap": {
+      "flags": [
+        {
+          "file": "apps/flags/.babelrc",
+          "hash": "13548039303182445957"
+        },
+        {
+          "file": "apps/flags/.eslintrc.json",
+          "hash": "18422846795396372115"
+        },
+        {
+          "file": "apps/flags/.gitignore",
+          "hash": "5598394124781295771"
+        },
+        {
+          "file": "apps/flags/android/app/_BUCK",
+          "hash": "4316824568543854207"
+        },
+        {
+          "file": "apps/flags/android/app/build.gradle",
+          "hash": "7207736596090346280"
+        },
+        {
+          "file": "apps/flags/android/app/build_defs.bzl",
+          "hash": "6570720434443780992"
+        },
+        {
+          "file": "apps/flags/android/app/debug.keystore",
+          "hash": "5037686243849261810"
+        },
+        {
+          "file": "apps/flags/android/app/proguard-rules.pro",
+          "hash": "13814197385154279786"
+        },
+        {
+          "file": "apps/flags/android/app/src/androidTest/java/com/flags/DetoxTest.java",
+          "hash": "17942433468018234286"
+        },
+        {
+          "file": "apps/flags/android/app/src/debug/AndroidManifest.xml",
+          "hash": "17010875351901525089"
+        },
+        {
+          "file": "apps/flags/android/app/src/debug/java/com/flags/ReactNativeFlipper.java",
+          "hash": "11786040118991886204"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/AndroidManifest.xml",
+          "hash": "6641633129327100309"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/java/com/flags/MainActivity.java",
+          "hash": "17783937279691745735"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/java/com/flags/MainApplication.java",
+          "hash": "592890331026998303"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/drawable/splashscreen.xml",
+          "hash": "1780073429041806138"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/drawable/splashscreen_image.png",
+          "hash": "12231713756344095307"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+          "hash": "11031248939938295091"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+          "hash": "9370171111036292752"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+          "hash": "9397415245210605919"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-ldpi/ic_launcher.png",
+          "hash": "281604720052065174"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+          "hash": "1990283220753417838"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+          "hash": "4942236917273732252"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+          "hash": "2042634551819202781"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+          "hash": "5276943839127157945"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+          "hash": "8352475837122383688"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+          "hash": "14846226603607020651"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+          "hash": "10609042004631303650"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+          "hash": "6771559677966835854"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+          "hash": "3076953063364227056"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "hash": "6632445551560216389"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "hash": "360781079925704110"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "hash": "17523885020887682896"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/values/colors.xml",
+          "hash": "8834975007967168402"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/values/strings.xml",
+          "hash": "17154376846334111184"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/values/styles.xml",
+          "hash": "935361147066678238"
+        },
+        {
+          "file": "apps/flags/android/app/src/main/res/xml/network_security_config.xml",
+          "hash": "7470100900868657300"
+        },
+        {
+          "file": "apps/flags/android/build.gradle",
+          "hash": "12748822379793845280"
+        },
+        {
+          "file": "apps/flags/android/gradle.properties",
+          "hash": "7942793513456530488"
+        },
+        {
+          "file": "apps/flags/android/gradle/wrapper/gradle-wrapper.jar",
+          "hash": "15827462154555836939"
+        },
+        {
+          "file": "apps/flags/android/gradle/wrapper/gradle-wrapper.properties",
+          "hash": "12144420479458678835"
+        },
+        {
+          "file": "apps/flags/android/gradlew",
+          "hash": "5672449845342018919"
+        },
+        {
+          "file": "apps/flags/android/gradlew.bat",
+          "hash": "4148442249581167124"
+        },
+        {
+          "file": "apps/flags/android/settings.gradle",
+          "hash": "9870684615126908409"
+        },
+        {
+          "file": "apps/flags/app.json",
+          "hash": "14964769825891339049"
+        },
+        {
+          "file": "apps/flags/ios/Flags.xcodeproj/project.pbxproj",
+          "hash": "388615016453087459"
+        },
+        {
+          "file": "apps/flags/ios/Flags.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+          "hash": "7905627858604825927"
+        },
+        {
+          "file": "apps/flags/ios/Flags.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+          "hash": "12722229457274558422"
+        },
+        {
+          "file": "apps/flags/ios/Flags.xcodeproj/xcshareddata/xcschemes/Flags.xcscheme",
+          "hash": "3988050927800023581"
+        },
+        {
+          "file": "apps/flags/ios/Flags.xcworkspace/contents.xcworkspacedata",
+          "hash": "2226334983267577295"
+        },
+        {
+          "file": "apps/flags/ios/Flags.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+          "hash": "12722229457274558422"
+        },
+        {
+          "file": "apps/flags/ios/Flags/AppDelegate.h",
+          "hash": "9480085849684875982"
+        },
+        {
+          "file": "apps/flags/ios/Flags/AppDelegate.m",
+          "hash": "10050174539199142510"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Base.lproj/LaunchScreen.xib",
+          "hash": "5717430310054555457"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Contents.json",
+          "hash": "6491647167988971417"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+          "hash": "12506533843229933192"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+          "hash": "14956095829670006206"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+          "hash": "11297411176383799290"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+          "hash": "8948797952656720247"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+          "hash": "16551618579330409531"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+          "hash": "7918957840399125072"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+          "hash": "14956095829670006206"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+          "hash": "784037993748011330"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+          "hash": "843398367921402935"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+          "hash": "843398367921402935"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+          "hash": "5632898125450229078"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+          "hash": "3745792023623182543"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+          "hash": "8923902788856919850"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+          "hash": "7061015178263904175"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png",
+          "hash": "16942336331927878139"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/Contents.json",
+          "hash": "16272710630576636421"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/iTunesArtwork@1x.png",
+          "hash": "11544605797327756231"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/iTunesArtwork@2x.png",
+          "hash": "16942336331927878139"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Images.xcassets/iTunesArtwork@3x.png",
+          "hash": "11191975887359822559"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Info.plist",
+          "hash": "12249599527133125936"
+        },
+        {
+          "file": "apps/flags/ios/Flags/LaunchScreen.storyboard",
+          "hash": "2576812997957068457"
+        },
+        {
+          "file": "apps/flags/ios/Flags/Supporting/Expo.plist",
+          "hash": "10383875826675270815"
+        },
+        {
+          "file": "apps/flags/ios/Flags/main.m",
+          "hash": "17318292586232496677"
+        },
+        {
+          "file": "apps/flags/ios/Podfile",
+          "hash": "13701354571474033882"
+        },
+        {
+          "file": "apps/flags/ios/Podfile.lock",
+          "hash": "8016757958385965062"
+        },
+        {
+          "file": "apps/flags/jest.config.js",
+          "hash": "10774007477341597347",
+          "deps": [
+            [
+              "npm:react-native/jest/preprocessor.js",
+              "dynamic"
+            ],
+            [
+              "npm:react-native/jest/assetFileTransformer.js",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/flags/metro.config.js",
+          "hash": "18138854902270636969",
+          "deps": [
+            "npm:@nrwl/react-native",
+            "npm:metro-config",
+            "npm:react-native-svg-transformer"
+          ]
+        },
+        {
+          "file": "apps/flags/package.json",
+          "hash": "10529617849288887903"
+        },
+        {
+          "file": "apps/flags/project.json",
+          "hash": "3274488309887806331"
+        },
+        {
+          "file": "apps/flags/src/app/App.spec.tsx",
+          "hash": "5072730789784802033",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react-native"
+          ]
+        },
+        {
+          "file": "apps/flags/src/app/App.tsx",
+          "hash": "1316908772515797026",
+          "deps": [
+            "game",
+            "geopolitical",
+            "npm:@react-navigation/native",
+            "npm:@react-navigation/native-stack",
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-elements",
+            "npm:react-native-gesture-handler",
+            "npm:react-native-safe-area-context"
+          ]
+        },
+        {
+          "file": "apps/flags/src/app/Theme.ts",
+          "hash": "10306501639185488580",
+          "deps": [
+            "npm:react-native-elements"
+          ]
+        },
+        {
+          "file": "apps/flags/src/app/logo.png",
+          "hash": "16741375909833078483"
+        },
+        {
+          "file": "apps/flags/src/app/star.svg",
+          "hash": "9662612398473580791"
+        },
+        {
+          "file": "apps/flags/src/main.tsx",
+          "hash": "3131060012761424703",
+          "deps": [
+            "npm:react-native"
+          ]
+        },
+        {
+          "file": "apps/flags/test-setup.ts",
+          "hash": "9919311210714806624",
+          "deps": [
+            "npm:@testing-library/jest-native/extend-expect"
+          ]
+        },
+        {
+          "file": "apps/flags/tsconfig.app.json",
+          "hash": "6653690357975069067"
+        },
+        {
+          "file": "apps/flags/tsconfig.json",
+          "hash": "16883272392874609581"
+        },
+        {
+          "file": "apps/flags/tsconfig.spec.json",
+          "hash": "163997633145879976"
+        }
+      ],
+      "utils": [
+        {
+          "file": "libs/utils/.babelrc",
+          "hash": "13548039303182445957"
+        },
+        {
+          "file": "libs/utils/.eslintrc.json",
+          "hash": "18422846795396372115"
+        },
+        {
+          "file": "libs/utils/README.md",
+          "hash": "14342862180974447819"
+        },
+        {
+          "file": "libs/utils/jest.config.js",
+          "hash": "369209131934649340",
+          "deps": [
+            [
+              "npm:react-native/jest/preprocessor.js",
+              "dynamic"
+            ],
+            [
+              "npm:react-native/jest/assetFileTransformer.js",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/utils/project.json",
+          "hash": "2448508336645505221"
+        },
+        {
+          "file": "libs/utils/src/Array/Array.ts",
+          "hash": "7508733296167709261"
+        },
+        {
+          "file": "libs/utils/src/String/String.ts",
+          "hash": "4476445402318229555"
+        },
+        {
+          "file": "libs/utils/src/index.ts",
+          "hash": "10913986895842007758"
+        },
+        {
+          "file": "libs/utils/test-setup.ts",
+          "hash": "9919311210714806624",
+          "deps": [
+            "npm:@testing-library/jest-native/extend-expect"
+          ]
+        },
+        {
+          "file": "libs/utils/tsconfig.json",
+          "hash": "13891714786094207386"
+        },
+        {
+          "file": "libs/utils/tsconfig.lib.json",
+          "hash": "14731559418390568536"
+        },
+        {
+          "file": "libs/utils/tsconfig.spec.json",
+          "hash": "163997633145879976"
+        }
+      ],
+      "flags-e2e": [
+        {
+          "file": "apps/flags-e2e/.babelrc",
+          "hash": "7338834004944326044"
+        },
+        {
+          "file": "apps/flags-e2e/.detoxrc.json",
+          "hash": "13772148780899698608"
+        },
+        {
+          "file": "apps/flags-e2e/.eslintrc.json",
+          "hash": "10075191527724852300"
+        },
+        {
+          "file": "apps/flags-e2e/environment.js",
+          "hash": "2850172975537239864",
+          "deps": [
+            "npm:detox/runners/jest-circus"
+          ]
+        },
+        {
+          "file": "apps/flags-e2e/jest.config.json",
+          "hash": "16302826913412869460"
+        },
+        {
+          "file": "apps/flags-e2e/project.json",
+          "hash": "15113058799999593011"
+        },
+        {
+          "file": "apps/flags-e2e/src/app.spec.ts",
+          "hash": "8669192161799751891",
+          "deps": [
+            "npm:detox"
+          ]
+        },
+        {
+          "file": "apps/flags-e2e/test-setup.ts",
+          "hash": "838765830152445812",
+          "deps": [
+            "npm:detox"
+          ]
+        },
+        {
+          "file": "apps/flags-e2e/tsconfig.e2e.json",
+          "hash": "11142322477626239235"
+        },
+        {
+          "file": "apps/flags-e2e/tsconfig.json",
+          "hash": "4500232260948002331"
+        }
+      ],
+      "chemistry": [
+        {
+          "file": "libs/chemistry/.babelrc",
+          "hash": "13548039303182445957"
+        },
+        {
+          "file": "libs/chemistry/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/chemistry/.storybook/main.js",
+          "hash": "11460703011670843398",
+          "deps": [
+            "npm:../../../.storybook/main"
+          ]
+        },
+        {
+          "file": "libs/chemistry/.storybook/preview.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/chemistry/.storybook/tsconfig.json",
+          "hash": "11706992623212243985"
+        },
+        {
+          "file": "libs/chemistry/.storybook/webpack.config.js",
+          "hash": "2921297518587297060",
+          "deps": [
+            "npm:tsconfig-paths-webpack-plugin",
+            "npm:../../../.storybook/webpack.config",
+            [
+              "npm:url-loader",
+              "dynamic"
+            ],
+            [
+              "npm:@svgr/webpack",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/chemistry/README.md",
+          "hash": "14255512167969365494"
+        },
+        {
+          "file": "libs/chemistry/jest.config.js",
+          "hash": "14048688594688736973"
+        },
+        {
+          "file": "libs/chemistry/project.json",
+          "hash": "8802036984161481946"
+        },
+        {
+          "file": "libs/chemistry/src/index.ts",
+          "hash": "5178533374802657027"
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/atomic-element/react/AtomicElement.module.scss",
+          "hash": "12919810087576549656"
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/atomic-element/react/AtomicElement.stories.tsx",
+          "hash": "315225813686939326",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/atomic-element/react/AtomicElement.tsx",
+          "hash": "11982400993373757906",
+          "deps": [
+            "game",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/periodic-table/react/PeriodicTable.module.scss",
+          "hash": "13070412609672260986"
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/periodic-table/react/PeriodicTable.spec.tsx",
+          "hash": "8493377190105497014",
+          "deps": [
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/periodic-table/react/PeriodicTable.stories.tsx",
+          "hash": "5857124265123448743",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/periodic-table/react/PeriodicTable.tsx",
+          "hash": "3543067633467823241",
+          "deps": [
+            "npm:react",
+            "game"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/components/testing-utils.tsx",
+          "hash": "15191971618174615691",
+          "deps": [
+            "npm:@testing-library/react",
+            "game"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/constants.ts",
+          "hash": "4685269296791525867"
+        },
+        {
+          "file": "libs/chemistry/src/lib/data-access/periodic-table.mock-data.json",
+          "hash": "9073507165057465566"
+        },
+        {
+          "file": "libs/chemistry/src/lib/data-access/periodic-table.service.tsx",
+          "hash": "353899081671522361",
+          "deps": [
+            "game",
+            "npm:react-native"
+          ]
+        },
+        {
+          "file": "libs/chemistry/src/lib/models/index.ts",
+          "hash": "7710411459872390084",
+          "deps": [
+            "game"
+          ]
+        },
+        {
+          "file": "libs/chemistry/tsconfig.json",
+          "hash": "14177356346994144112"
+        },
+        {
+          "file": "libs/chemistry/tsconfig.lib.json",
+          "hash": "16581779273866918323"
+        },
+        {
+          "file": "libs/chemistry/tsconfig.spec.json",
+          "hash": "13015927483173923663"
+        }
+      ],
+      "auth": [
+        {
+          "file": "libs/auth/.babelrc",
+          "hash": "11855890993922274285"
+        },
+        {
+          "file": "libs/auth/.eslintrc.json",
+          "hash": "10075191527724852300"
+        },
+        {
+          "file": "libs/auth/.storybook/main.js",
+          "hash": "11460703011670843398",
+          "deps": [
+            "npm:../../../.storybook/main"
+          ]
+        },
+        {
+          "file": "libs/auth/.storybook/preview.js",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/auth/.storybook/tsconfig.json",
+          "hash": "11706992623212243985"
+        },
+        {
+          "file": "libs/auth/.storybook/webpack.config.js",
+          "hash": "2921297518587297060",
+          "deps": [
+            "npm:tsconfig-paths-webpack-plugin",
+            "npm:../../../.storybook/webpack.config",
+            [
+              "npm:url-loader",
+              "dynamic"
+            ],
+            [
+              "npm:@svgr/webpack",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/auth/README.md",
+          "hash": "17993389933539474821"
+        },
+        {
+          "file": "libs/auth/jest.config.js",
+          "hash": "554371369495573662"
+        },
+        {
+          "file": "libs/auth/project.json",
+          "hash": "7556596014727835535"
+        },
+        {
+          "file": "libs/auth/src/index.ts",
+          "hash": "966253417088953506"
+        },
+        {
+          "file": "libs/auth/src/lib/components/Auth/react/auth.module.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/auth/src/lib/components/Auth/react/auth.spec.tsx",
+          "hash": "6237767550554754755",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/components/Auth/react/auth.stories.tsx",
+          "hash": "10318930106120419648",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/components/Auth/react/auth.tsx",
+          "hash": "4889066261555466705"
+        },
+        {
+          "file": "libs/auth/tsconfig.json",
+          "hash": "12511190674594120915"
+        },
+        {
+          "file": "libs/auth/tsconfig.lib.json",
+          "hash": "8977172661744698"
+        },
+        {
+          "file": "libs/auth/tsconfig.spec.json",
+          "hash": "13015927483173923663"
+        }
+      ],
+      "geopolitical": [
+        {
+          "file": "libs/geopolitical/.babelrc",
+          "hash": "13548039303182445957"
+        },
+        {
+          "file": "libs/geopolitical/.eslintrc.json",
+          "hash": "18422846795396372115"
+        },
+        {
+          "file": "libs/geopolitical/README.md",
+          "hash": "8021878720001917793"
+        },
+        {
+          "file": "libs/geopolitical/jest.config.js",
+          "hash": "9856579807412210294",
+          "deps": [
+            [
+              "npm:react-native/jest/preprocessor.js",
+              "dynamic"
+            ],
+            [
+              "npm:react-native/jest/assetFileTransformer.js",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/geopolitical/project.json",
+          "hash": "15277827485501847883"
+        },
+        {
+          "file": "libs/geopolitical/src/index.ts",
+          "hash": "17500174815279732405"
+        },
+        {
+          "file": "libs/geopolitical/src/lib/components/Flag/react-native/Flag.tsx",
+          "hash": "2599023895532980460",
+          "deps": [
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-ico-flags"
+          ]
+        },
+        {
+          "file": "libs/geopolitical/src/lib/data-access/flag-data.json",
+          "hash": "2831591765831798263"
+        },
+        {
+          "file": "libs/geopolitical/src/lib/data-access/flag-service.tsx",
+          "hash": "10287682125751943089",
+          "deps": [
+            "npm:react",
+            "game"
+          ]
+        },
+        {
+          "file": "libs/geopolitical/test-setup.ts",
+          "hash": "9919311210714806624",
+          "deps": [
+            "npm:@testing-library/jest-native/extend-expect"
+          ]
+        },
+        {
+          "file": "libs/geopolitical/tsconfig.json",
+          "hash": "12730530508005080904"
+        },
+        {
+          "file": "libs/geopolitical/tsconfig.lib.json",
+          "hash": "14731559418390568536"
+        },
+        {
+          "file": "libs/geopolitical/tsconfig.spec.json",
+          "hash": "163997633145879976"
+        }
+      ],
+      "game": [
+        {
+          "file": "libs/game/.babelrc",
+          "hash": "4770780497019305574"
+        },
+        {
+          "file": "libs/game/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/game/README.md",
+          "hash": "8909520893164239273"
+        },
+        {
+          "file": "libs/game/jest.config.js",
+          "hash": "11860617122324085315"
+        },
+        {
+          "file": "libs/game/project.json",
+          "hash": "17352460412090946872"
+        },
+        {
+          "file": "libs/game/src/index.ts",
+          "hash": "13864879344562261682"
+        },
+        {
+          "file": "libs/game/src/lib/components/completed/react-native/Completed.tsx",
+          "hash": "14102856781445661743",
+          "deps": [
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-elements"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/components/home/react-native/Home.tsx",
+          "hash": "9596950606803209999",
+          "deps": [
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native/Libraries/NewAppScreen",
+            "npm:react-native-elements"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/components/play-container/react-native/PlayContainer.tsx",
+          "hash": "1497226197137444169",
+          "deps": [
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native/Libraries/NewAppScreen"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/components/quiz-item/prompt/react-native/Prompt.tsx",
+          "hash": "1646194532327075996",
+          "deps": [
+            "npm:react",
+            "npm:react-native"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/components/response/multiple-choice/react-native/MultipleChoice.tsx",
+          "hash": "14735793241083660389",
+          "deps": [
+            "utils",
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-elements"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/components/settings/react-native/Settings.tsx",
+          "hash": "5573778630538914530",
+          "deps": [
+            "utils",
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-elements"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/data-access/services/game.service.ts",
+          "hash": "6116786028404151402",
+          "deps": [
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/data-access/services/root-navigation.ts",
+          "hash": "12585666509717804187",
+          "deps": [
+            "npm:@react-navigation/native"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/data-access/state/app-context.ts",
+          "hash": "6647779138064894756",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/data-access/state/app-reducer.spec.tsx",
+          "hash": "16170646565263703431"
+        },
+        {
+          "file": "libs/game/src/lib/data-access/state/app-reducer.ts",
+          "hash": "15187253695298973323",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/game/src/lib/data-access/state/react/app-context.tsx",
+          "hash": "2629674287917080698",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/game/tsconfig.json",
+          "hash": "13891714786094207386"
+        },
+        {
+          "file": "libs/game/tsconfig.lib.json",
+          "hash": "3185372664353199514"
+        },
+        {
+          "file": "libs/game/tsconfig.spec.json",
+          "hash": "13015927483173923663"
+        }
+      ]
+    }
+  }
+}

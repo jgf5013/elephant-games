@@ -19,8 +19,8 @@
     "paths": {
       "@elephant-games/auth": ["libs/auth/src/index.ts"],
       "@elephant-games/chemistry": ["libs/chemistry/src/index.ts"],
-      "@elephant-games/geopolitical": ["libs/geopolitical/src/index.ts"],
       "@elephant-games/game": ["libs/game/src/index.ts"],
+      "@elephant-games/geopolitical": ["libs/geopolitical/src/index.ts"],
       "@elephant-games/utils": ["libs/utils/src/index.ts"]
     }
   },

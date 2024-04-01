@@ -1,0 +1,47 @@
+[NX Daemon Server] - 2024-04-01T11:43:28.581Z - Started listening on: /var/folders/ry/n65j1jvx3kbbg3stly9_p4r40000gn/T/517eb74c3d63a03c0caa/d.sock
+[NX Daemon Server] - 2024-04-01T11:43:28.583Z - [WATCHER]: Subscribed to changes within: /Users/john.fisher/workspace/jgf5013/elephant-games (native)
+[NX Daemon Server] - 2024-04-01T11:43:28.583Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-01T11:43:28.583Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-01T11:43:28.584Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-01T11:43:28.593Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-01T11:43:28.593Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-01T11:43:28.593Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-01T11:43:28.913Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-01T11:43:28.915Z - Time taken for 'total for creating and serializing project graph' 328.789834022522ms
+[NX Daemon Server] - 2024-04-01T11:43:28.915Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-01T11:43:28.918Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-01T11:43:28.918Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 329. Response time: 5.
+[NX Daemon Server] - 2024-04-01T11:43:29.107Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-01T11:44:05.806Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-01T11:44:05.841Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-01T11:45:41.984Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-01T11:45:41.984Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-01T11:45:41.985Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-01T11:45:41.985Z - [REQUEST]: Responding to the client with an error. Lock files changed LOCK-FILES-CHANGED
+undefined
+[NX Daemon Server] - 2024-04-01T11:45:41.985Z - Done responding to the client null
+[NX Daemon Server] - 2024-04-01T11:45:41.985Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-01T11:45:41.985Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-01T11:45:41.987Z - Time taken for 'total for creating and serializing project graph' 0.05420798063278198ms
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+[NX Daemon Server] - 2024-04-01T11:45:41.988Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-01T11:45:41.988Z - Socket error
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+[NX Daemon Server] - 2024-04-01T11:45:41.988Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-04-01T11:45:41.988Z - Closed a connection. Number of open connections: 0
